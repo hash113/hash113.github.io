@@ -26,36 +26,41 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 /*---------------------------Class's----------------------------------*/
 
-#rightsplit{
+.right{
 	/*white color*/
+	background-color: #000000;
 	float: right;
 	position: absolute;
 	right: 0;
-	/*clip: rect(0px,1400px,800px,600px);*/
+	
 
 }
 
 .left{
 	/*black color */
+	background-color: #ffffff;
 	float: left;
 	left: 0;
-	position: absolute;
+	
 	
 }
 
-.image{
-	height: 100%;
-	width: 100%;
-}
-/*
 .side{
 	width: 50%;
 	height: 100%;
 	position: relative;
 	margin-right: 0;
 }
-*//*---------------------------Id's----------------------------------*/
+/*---------------------------Id's----------------------------------*/
+#rightfull{
+	background-color: #000000;
+	height: 100%;
+	width: 100%;
+}
 
+#leftfull{
+	background-color: #ffffff;
+}
 /*center logo*/
 #logo
 {
