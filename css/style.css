@@ -1,5 +1,21 @@
 
 /*---------------------------Class's----------------------------------*/
+.marg{
+	margin: 0 0 0 0;
+}
+
+.padd{
+	padding: 0;
+}
+
+.h100{
+height:650px;
+
+}
+.black
+{
+	background-color: black;
+}
 
 .right{
 	/*white color*/
