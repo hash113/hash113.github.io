@@ -12,9 +12,14 @@ $( window ).load(function()
     
     $('#white_half').hover(function()
 	    {
-	 	   // $("#white_half").css("background-color","black");
+	 	    $("#tattoo").css("opacity","0.5");
+	 	    // $("#wing").css("display","inline");
+	 	    $("#wing").fadeIn("slow");
+	 	    // fadein
 	  		},function(){
 	  		$("#white_half").css("background-color","#ececec");
+	  		$("#tattoo").css("opacity","0.1");
+	  		$("#wing").css("display","none");
 		});
 
      $('#black_half').hover(function()

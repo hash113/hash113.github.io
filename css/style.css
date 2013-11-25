@@ -22,6 +22,10 @@ height:640px;
 	background-color: #ececec;
 }
 
+.centerimage{
+	height: 100%;
+
+}
 .socialicon{
 	padding: 0;
 	height: 30px;
@@ -32,6 +36,7 @@ height:640px;
 .socialicon:hover{
 	opacity: 1;
 }
+
 /*---------------------------Id's----------------------------------*/
 #rightfull{
 	background-color: #000000;
@@ -53,12 +58,25 @@ height:640px;
 	left: 50%;
 	position: fixed;
 }
+
 #matrix{
-	height: 100%;
 	opacity: 0.2;
 }
 
+#tattoo{
+	opacity: 0.1;
+}
 
+#wing{
+	position: fixed;
+	opacity: 0.4;
+	height: 10%;	
+	width: 20%;
+	top:50%;
+	left: 20%;
+	z-index: 10;
+	display: none;
+}
 /*footer*/
 #footcont{
 	height: 60px;
