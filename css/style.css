@@ -1,4 +1,6 @@
-
+body{
+	overflow: hidden;
+}
 /*---------------------------Class's----------------------------------*/
 .marg{
 	margin: 0 0 0 0;
@@ -9,7 +11,7 @@
 }
 
 .h100{
-height:650px;
+height:640px;
 
 }
 .bgblack
@@ -17,7 +19,7 @@ height:650px;
 	background-color: black;
 }
 .bgwhite{
-	background-color: white;
+	background-color: #ececec;
 }
 .right{
 	/*white color*/
@@ -44,6 +46,17 @@ height:650px;
 	position: relative;
 	margin-right: 0;
 }
+
+.socialicon{
+	padding: 0;
+	height: 30px;
+	width: 30px;
+	opacity: 0.6;
+}
+
+.socialicon:hover{
+	opacity: 1;
+}
 /*---------------------------Id's----------------------------------*/
 #rightfull{
 	background-color: #000000;
@@ -69,7 +82,7 @@ height:650px;
 
 /*footer*/
 #footcont{
-	height: 50px;
+	height: 60px;
 	z-index: 2;
 	background-color: black;
 	margin: 0 0 0 0;
@@ -79,11 +92,13 @@ height:650px;
 #footer{
 	height: 110px;
 	bottom: 0;
-	padding-top:650px;
-	background-color: black;
+	padding-top:643px;
+	background-color: #B6B6B4;
 	z-index: 2;
 }
 
 #sociallinks{
 	height: 100%;
+	overflow: hidden;
+	padding: 0;
 }
