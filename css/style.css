@@ -12,11 +12,13 @@
 height:650px;
 
 }
-.black
+.bgblack
 {
 	background-color: black;
 }
-
+.bgwhite{
+	background-color: white;
+}
 .right{
 	/*white color*/
 	background-color: #000000;
@@ -62,4 +64,26 @@ height:650px;
 	margin-left: -100px;
 	left: 50%;
 	position: fixed;
+}
+
+
+/*footer*/
+#footcont{
+	height: 50px;
+	z-index: 2;
+	background-color: black;
+	margin: 0 0 0 0;
+	width: 100%;
+}
+
+#footer{
+	height: 110px;
+	bottom: 0;
+	padding-top:650px;
+	background-color: black;
+	z-index: 2;
+}
+
+#sociallinks{
+	height: 100%;
 }
