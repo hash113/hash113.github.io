@@ -21,31 +21,6 @@ height:640px;
 .bgwhite{
 	background-color: #ececec;
 }
-.right{
-	/*white color*/
-	background-color: #000000;
-	float: right;
-	position: absolute;
-	right: 0;
-	
-
-}
-
-.left{
-	/*black color */
-	background-color: #ffffff;
-	float: left;
-	left: 0;
-	position: absolute;
-	
-}
-
-.side{
-	width: 50%;
-	height: 100%;
-	position: relative;
-	margin-right: 0;
-}
 
 .socialicon{
 	padding: 0;
@@ -77,6 +52,10 @@ height:640px;
 	margin-left: -100px;
 	left: 50%;
 	position: fixed;
+}
+#matrix{
+	height: 100%;
+	opacity: 0.2;
 }
 
 
