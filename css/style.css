@@ -63,8 +63,16 @@ height:640px;
 	opacity: 0.2;
 }
 
-#tattoo{
+#tatoo{
 	opacity: 0.1;
+	
+}
+
+#tatoohover{
+position: fixed;
+opacity: 0.4;
+left: 0;
+display: none;
 }
 
 #wing{

@@ -12,14 +12,18 @@ $( window ).load(function()
     
     $('#white_half').hover(function()
 	    {
-	 	    $("#tattoo").css("opacity","0.5");
+	 	    $("#tatoo").css("opacity","0.5");
+
+	 	    // $("#tattoo").fadeIn("slow");
 	 	    // $("#wing").css("display","inline");
 	 	    $("#wing").fadeIn("slow");
+	 	    $("#tatoohover").fadeIn("slow");
 	 	    // fadein
 	  		},function(){
 	  		$("#white_half").css("background-color","#ececec");
-	  		$("#tattoo").css("opacity","0.1");
-	  		$("#wing").css("display","none");
+	  		$("#tatoo").css("opacity","0.1");
+	  		$("#wing,#tatoohover").css("display","none");
+
 		});
 
      $('#black_half').hover(function()
