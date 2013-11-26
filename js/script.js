@@ -12,27 +12,37 @@ $( window ).load(function()
     
     $('#white_half').hover(function()
 	    {
-	 	    $("#tatoo").css("opacity","0.5");
-
-	 	    // $("#tattoo").fadeIn("slow");
-	 	    // $("#wing").css("display","inline");
-	 	    $("#wing").fadeIn("slow");
+	 	    
+	 	   	$( "#wing,#tatoo" ).fadeTo( "slow" , 0.5);
 	 	    $("#tatoohover").fadeIn("slow");
+	 	    $( "#right_title" ).fadeTo( "slow" , 1);
+	 	    
 	 	    // fadein
 	  		},function(){
-	  		$("#white_half").css("background-color","#ececec");
-	  		$("#tatoo").css("opacity","0.1");
-	  		$("#wing,#tatoohover").css("display","none");
+	  		$("#tatoohover").fadeOut("slow")
+	  		$( "#wing,#tatoo" ).fadeTo( "slow" , 0.1);
+	  		$( "#right_title" ).fadeTo( "slow" , 0.6);
 
 		});
 
      $('#black_half').hover(function()
 	    {
 	 	   // $("#black_half").css("background-color","#ececec");
-	 	   $('#matrix').css("opacity","0.4");
+	 	   $('#matrix').fadeTo("slow", 0.3);
+	 	   $('#left_title').fadeTo("slow",1);
+
+        
+
+
+
 	  		},function(){
 	  		$("#black_half").css("background-color","black");
-	  		$('#matrix').css("opacity","0.2");
+	  		$('#matrix').fadeTo("slow",0.1);
+	  		$('#left_title').fadeTo("slow",0.6);
+	  		
+
+
+
 		});
 
      $('#white_half').click(function()

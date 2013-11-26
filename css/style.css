@@ -1,6 +1,17 @@
 body{
 	overflow: hidden;
 }
+
+@font-face
+{
+font-family: matrix;
+src: url('../fonts/matrix.ttf');
+}
+@font-face
+{
+font-family: creative;
+src: url('../fonts/jelly.ttf');
+}
 /*---------------------------Class's----------------------------------*/
 .marg{
 	margin: 0 0 0 0;
@@ -59,8 +70,29 @@ height:640px;
 	position: fixed;
 }
 
+#right_title{
+	z-index: 10;
+	font-family: creative;
+	position: fixed;
+	left: 18%;
+	top: 40%;
+	font-size: 60px;
+	opacity: 0.6;
+	color: grey;
+}
+
+#left_title{
+	z-index: 10;
+	font-family: matrix;
+	position: fixed;
+	right: 14%;
+	top: 40%;
+	font-size: 50px;
+	opacity: 0.6;
+	color: green;
+}
 #matrix{
-	opacity: 0.2;
+	opacity: 0.1;
 }
 
 #tatoo{
@@ -77,13 +109,13 @@ display: none;
 
 #wing{
 	position: fixed;
-	opacity: 0.4;
+	opacity: 0.1;
 	height: 10%;	
 	width: 20%;
-	top:50%;
-	left: 20%;
+	top:52%;
+	left: 16%;
 	z-index: 10;
-	display: none;
+	/*display: none;*/
 }
 /*footer*/
 #footcont{
