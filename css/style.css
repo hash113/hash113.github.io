@@ -49,14 +49,36 @@ height:640px;
 }
 
 /*---------------------------Id's----------------------------------*/
-#rightfull{
-	background-color: #000000;
+#welcometab{
+	position: fixed;
+	background: url(../images/oldpaper.jpg);
+	background-position:center; 
+	background-size:100%;
+
 	height: 100%;
-	width: 100%;
+	z-index: 100;
+	text-align: center;
+	box-shadow:50px 50px 50px 20px black;
+}
+#white_half
+{
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 20px #000000;
+
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+z-index: auto;
 }
 
-#leftfull{
-	background-color: #ffffff;
+#black_half{
+	-moz-box-shadow:    inset 0 0 10px white;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #ffffff;
+
+z-index: 5;
 }
 /*center logo*/
 #logo
@@ -70,25 +92,27 @@ height:640px;
 	position: fixed;
 }
 
-#right_title{
-	z-index: 10;
+#left_title{
+	
 	font-family: creative;
 	position: fixed;
 	left: 18%;
 	top: 40%;
 	font-size: 60px;
 	opacity: 0.6;
-	color: grey;
+	color: black;
+	z-index: 4;
+
 }
 
-#left_title{
-	z-index: 10;
+#right_title{
+	
 	font-family: matrix;
 	position: fixed;
 	right: 14%;
 	top: 40%;
 	font-size: 50px;
-	opacity: 0.6;
+	opacity: 1;
 	color: green;
 }
 #matrix{
@@ -97,7 +121,7 @@ height:640px;
 
 #tatoo{
 	opacity: 0.1;
-	
+	z-index: 2;
 }
 
 #tatoohover{
@@ -105,6 +129,8 @@ position: fixed;
 opacity: 0.4;
 left: 0;
 display: none;
+z-index: auto;
+
 }
 
 #wing{
@@ -114,24 +140,25 @@ display: none;
 	width: 20%;
 	top:52%;
 	left: 16%;
-	z-index: 10;
+	
 	/*display: none;*/
 }
 /*footer*/
 #footcont{
 	height: 60px;
-	z-index: 2;
+	z-index: 7;
 	background-color: black;
 	margin: 0 0 0 0;
 	width: 100%;
 }
 
 #footer{
+
 	height: 110px;
 	bottom: 0;
 	padding-top:643px;
 	background-color: #B6B6B4;
-	z-index: 2;
+	
 }
 
 #sociallinks{

@@ -9,6 +9,11 @@ $( document ).ready(function() {
 $( window ).load(function() 
 {
     console.log( "window loaded" );
+    $('#link_main').click(function(){
+    	$('#welcometab').fadeOut("slow");
+   
+
+    });
     
     $('#white_half').hover(function()
 	    {
@@ -29,7 +34,7 @@ $( window ).load(function()
 	    {
 	 	   // $("#black_half").css("background-color","#ececec");
 	 	   $('#matrix').fadeTo("slow", 0.3);
-	 	   $('#left_title').fadeTo("slow",1);
+	 	   $('#left_title').fadeTo("slow",0.9);
 
         
 
@@ -38,7 +43,7 @@ $( window ).load(function()
 	  		},function(){
 	  		$("#black_half").css("background-color","black");
 	  		$('#matrix').fadeTo("slow",0.1);
-	  		$('#left_title').fadeTo("slow",0.6);
+	  		$('#left_title').fadeTo("slow",1);
 	  		
 
 
