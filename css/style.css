@@ -44,6 +44,7 @@ margin-top: 5%;
 	height: 100%;
 
 }
+
 .socialicon{
 	padding: 0;
 	height: 30px;
@@ -71,7 +72,7 @@ margin-top: 5%;
 	background-size:100%;
 
 	height: 100%;
-	z-index: 100;
+	z-index: 1000;
 	text-align: center;
 	box-shadow:50px 50px 50px 20px black;
 }
