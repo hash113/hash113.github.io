@@ -18,15 +18,15 @@ $( window ).load(function()
     $('#white_half').hover(function()
 	    {
 	 	    
-	 	   	$( "#wing,#tatoo" ).fadeTo( "slow" , 0.5);
+	 	   	$( "#wing,#tatoo" ).fadeTo( "slow" , 1);
 	 	    $("#tatoohover").fadeIn("slow");
-	 	    $( "#right_title" ).fadeTo( "slow" , 1);
+	 	    $( "#left_title" ).fadeTo( "slow" , 0.7);
 	 	    
 	 	    // fadein
 	  		},function(){
 	  		$("#tatoohover").fadeOut("slow")
 	  		$( "#wing,#tatoo" ).fadeTo( "slow" , 0.1);
-	  		$( "#right_title" ).fadeTo( "slow" , 0.6);
+	  		$( "#left_title" ).fadeTo( "slow" , 1);
 
 		});
 
@@ -34,7 +34,7 @@ $( window ).load(function()
 	    {
 	 	   // $("#black_half").css("background-color","#ececec");
 	 	   $('#matrix').fadeTo("slow", 0.3);
-	 	   $('#left_title').fadeTo("slow",0.9);
+	 	   $('#right_title').fadeTo("slow",0.9);
 
         
 
@@ -43,7 +43,7 @@ $( window ).load(function()
 	  		},function(){
 	  		$("#black_half").css("background-color","black");
 	  		$('#matrix').fadeTo("slow",0.1);
-	  		$('#left_title').fadeTo("slow",1);
+	  		$('#right_title').fadeTo("slow",1);
 	  		
 
 
