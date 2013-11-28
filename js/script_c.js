@@ -1,8 +1,8 @@
 $( window ).load(function() 
 {
 	$('#sketches').click(function(){
-		$("#two").fadeIn("slow");
 		$("#one").fadeOut("slow");
+		window.open("sketches.html","_self");
 	});
 
 	$('#graphics').click(function(){
