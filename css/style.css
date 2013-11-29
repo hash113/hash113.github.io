@@ -12,6 +12,11 @@ src: url('../fonts/matrix.ttf');
 font-family: creative;
 src: url('../fonts/jelly.ttf');
 }
+@font-face
+{
+font-family: ginga;
+src: url('../fonts/Ginga.otf');
+}
 /*---------------------------Class's----------------------------------*/
 .marg{
 	margin: 0 0 0 0;
@@ -57,8 +62,10 @@ margin-top: 5%;
 }
 
 .shortcut a{
-	/*font-size: 30px;*/
+	font-size: 80px;
+	font-family: ginga;
 	color: black;
+
 }
 .shortcut:first-child{
 	font-size: 50px;

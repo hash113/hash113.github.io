@@ -39,3 +39,9 @@ src: url('../fonts/bird.ttf');
 	vertical-align: baseline;
 	bottom: 7px;
 }
+
+.logo{
+	height: 80%;
+	width: 40%;
+	margin: 0;
+}
