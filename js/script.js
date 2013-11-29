@@ -52,6 +52,7 @@ $( window ).load(function()
 
      $('#white_half').click(function()
      {
+     	$("#welcometab,#white_half,#black_half").fadeOut("fast");
      	window.open("creativity.html","_self");
      });
 
