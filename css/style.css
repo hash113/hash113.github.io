@@ -17,6 +17,12 @@ src: url('../fonts/jelly.ttf');
 font-family: ginga;
 src: url('../fonts/Ginga.otf');
 }
+@font-face
+{
+font-family: brush;
+src: url('../fonts/Brush.ttf');
+}
+
 /*---------------------------Class's----------------------------------*/
 .marg{
 	margin: 0 0 0 0;
@@ -60,12 +66,23 @@ margin-top: 5%;
 .socialicon:hover{
 	opacity: 1;
 }
+.shortcut{
+	margin-top: 50px;
+}
 
 .shortcut a{
-	font-size: 80px;
-	font-family: ginga;
+	font-size: 60px;
+	font-family: brush;
 	color: black;
+	margin-left: 60px;
+	margin-right: 60px;
+	opacity: 0.6;
 
+
+}
+
+.shortcut a:hover{
+opacity: 1;
 }
 .shortcut:first-child{
 	font-size: 50px;
