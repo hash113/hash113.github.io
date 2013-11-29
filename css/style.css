@@ -102,8 +102,9 @@ opacity: 1;
 }
 #logosvg
 {
-	height: 20%;
-	width: 20%;
+	height: 30%;
+	width: 30%;
+
 }
 #link_main{
 	color: white;
@@ -111,7 +112,7 @@ opacity: 1;
 	height: 10%;
 	background: url("../images/button_texture.jpg") ;
 	bottom: 20%;
-	margin-top:10%; 
+	margin-top:3%; 
 	border-radius:5px;
 	opacity: .8;
 	/*background-position: center;*/
@@ -121,7 +122,10 @@ opacity: 1;
 #link_main:hover{
 	opacity: 1;
 	}
-
+.name{
+	margin-top: 10px;
+	font-size: 20px; 
+}
 #white_half
 {
 	-moz-box-shadow:    inset 0 0 10px #000000;
