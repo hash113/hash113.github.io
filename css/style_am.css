@@ -1,0 +1,55 @@
+@font-face
+{
+font-family: aire;
+src: url('../fonts/aire.ttf');
+}
+
+@font-face
+{
+font-family: article;
+src: url('../fonts/article.ttf');
+}
+body
+{
+	overflow: auto;
+	background-color: rgba(131,135,138,0.2);
+}
+.name{
+	font-family: aire;
+	font-size: 100px;
+	
+	text-align: center;
+	
+	
+
+}
+.dp{
+	height: 325px;
+	margin-top: -35px;
+	-webkit-transform: rotate(-2deg);
+-moz-transform: rotate(-2deg);
+border:10px solid #ffffff;
+/*border:8px solid #021a40;*/
+box-shadow: 0 0 10px #000000;
+}
+.header{
+	height: 40px;
+	text-align: center;
+
+}
+.header a{
+	margin-top: 2%;
+}
+.content{
+	font-family: article;
+	margin-top: 30px;
+	font-size: 30px;
+}
+.centerstage
+{
+	box-shadow: 0 0 10px #000000;
+	height: 700px;
+	text-align: center;
+
+
+}
