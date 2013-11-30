@@ -58,6 +58,6 @@ $( window ).load(function()
 
      $('#black_half').click(function()
      {
-     	window.open("programming.html","_self");
+     	window.open("programming1.html","_self");
      });
 });

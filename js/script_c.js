@@ -8,7 +8,6 @@ $( window ).load(function()
 	});
 
 	$('#graphics').click(function(){
-		$("#three").fadeIn("slow");
-		$("#one").fadeOut("slow");
+		window.open("hhh.html","_self");
 	})
 });
