@@ -12,17 +12,20 @@ src: url('../fonts/article.ttf');
 body
 {
 	overflow: auto;
-	background-color: rgba(131,135,138,0.2);
+background-color: #ececec;	
 }
+
 .name{
 	font-family: aire;
 	font-size: 100px;
-	
 	text-align: center;
-	
-	
+}
+.links
+{
+	margin-top: 1%;
 
 }
+
 .dp{
 	height: 325px;
 	margin-top: -35px;
@@ -39,17 +42,24 @@ box-shadow: 0 0 10px #000000;
 }
 .header a{
 	margin-top: 2%;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	font-size: 25px;
+	margin-right: 60px;
+	margin-left: 60px;
 }
 .content{
 	font-family: article;
 	margin-top: 30px;
 	font-size: 30px;
+	margin-left: 75px;
+	margin-right: 75px;
 }
 .centerstage
 {
 	box-shadow: 0 0 10px #000000;
-	height: 700px;
+	height: 800px;
 	text-align: center;
-
+background-color: white;
 
 }
