@@ -9,12 +9,20 @@ src: url('../fonts/aire.ttf');
 font-family: article;
 src: url('../fonts/article.ttf');
 }
+@font-face
+{
+font-family: rondo;
+src: url('../fonts/orange.ttf');
+}
 body
 {
 	overflow: auto;
 background-color: #ececec;	
 }
-
+#emailid{
+	font-family: rondo;
+	color: #0000A0;
+}
 .name{
 	font-family: aire;
 	font-size: 100px;
@@ -25,7 +33,11 @@ background-color: #ececec;
 	margin-top: 1%;
 
 }
-
+.s_link{
+height: 35px;
+width: 35px;
+margin-right: 12px;
+}
 .dp{
 	height: 325px;
 	margin-top: -35px;
