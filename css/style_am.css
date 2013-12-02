@@ -49,9 +49,7 @@ width: 35px;
 margin-right: 12px;
 margin-top: 20px;
 }
-.s_link:hover{
-	box-shadow: 0 0 10px #000000;
-	}
+
 .dp{
 	height: 325px;
 	margin-top: -35px;
@@ -60,19 +58,6 @@ margin-top: 20px;
 border:10px solid #ffffff;
 /*border:8px solid #021a40;*/
 box-shadow: 0 0 10px #000000;
-}
-.header{
-	height: 40px;
-	text-align: center;
-
-}
-.header a{
-	margin-top: 2%;
-	font-family: 'Quicksand', sans-serif;
-	color: black;
-	font-size: 25px;
-	margin-right: 60px;
-	margin-left: 60px;
 }
 .content{
 	font-family: article;
