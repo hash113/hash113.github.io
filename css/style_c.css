@@ -1,29 +1,45 @@
 body{
-	
+	overflow: hidden;
 }
 /*header*/
-#one
-{
-	display: none;
-	background: rgba(131,135,138,0.4);
+
+.sketch{
+  background: url("../images/4.jpg");
+  background-size: 100%;
+  min-height: 650px;
+  background-origin: center;
+background-position: center;
+background-repeat: no-repeat;
+  transition: background-size 2s;
+-webkit-transition:background-size 2s; /* Safari */
+}
+.cover{
+ background: url("../images/blackglass.png"); 
+ min-height: 650px;
+ }
+
+ #hide{
+  display: none;
+ }
+
+ .centerfont{
+  color: white;
+  font-size: 30px;
+  padding-top: 60%;
+  text-align: center;
+ }
+
+.sketch:hover{
+
+  background-size: 140%;
+  background-position: center;
 }
 
-#two,#three{
-	display: none;
-}
-.g_window{
-	height: 500px;
--moz-box-shadow:    0 0 10px #000000;
-   -webkit-box-shadow:  0 0 10px #000000;
-   box-shadow:          0 0 10px #000000;
-   margin-left:10%;
-   top:30px; 
-   background: rgba(131,135,138,0.1);
-   overflow: hidden;
-}
-
-#sketches{
-
+.side{
+  height: 620px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 /*footer*/
 #footcont{
