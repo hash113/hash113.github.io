@@ -3,8 +3,8 @@ $( window ).load(function()
  	$("#one,.header").fadeIn("slow");
 
  	$(".sketch").hover(function(){
- 		$("#hide").fadeIn("slow")},function(){
- 			$("#hide").fadeOut("slow")
+ 		$("#sketch_cover").fadeIn("slow")},function(){
+ 			$("#sketch_cover").fadeOut("slow")
  	});
 
 
