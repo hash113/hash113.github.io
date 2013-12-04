@@ -1,17 +1,23 @@
 
 $( document ).ready(function() {
-	console.log("first");
+	//console.log("first");
 	});
-	
+	// $(window).load(function() { callFunction(); });
 // window.onload=function(){
 
 // }
 
 $( window ).load(function() 
 {
-    console.log( "window loaded" );
+   	// console.log( "window loaded" );
+    // $("#loadingimage").css("display","block");
+    loader();
 
-    $('#link_main').click(function(){
+});
+
+function loader()
+{
+	$('#link_main').click(function(){
     	$('#welcometab').fadeOut("slow");
    
 
@@ -62,4 +68,4 @@ $( window ).load(function()
      {
      	window.open("programming1.html","_self");
      });
-});
+}

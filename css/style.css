@@ -88,7 +88,13 @@ opacity: 1;
 	font-size: 50px;
 }
 
+
 /*---------------------------Id's----------------------------------*/
+#loadingimage{
+display: none;
+text-align: center;
+margin-left: 30%;
+}
 #welcometab{
 	position: fixed;
 	background: url(../images/oldpaper.jpg);
