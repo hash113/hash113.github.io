@@ -1,7 +1,8 @@
 
 $( document ).ready(function() {
+	console.log("first");
 	});
-
+	
 // window.onload=function(){
 
 // }
@@ -9,6 +10,7 @@ $( document ).ready(function() {
 $( window ).load(function() 
 {
     console.log( "window loaded" );
+
     $('#link_main').click(function(){
     	$('#welcometab').fadeOut("slow");
    

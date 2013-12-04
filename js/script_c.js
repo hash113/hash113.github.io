@@ -1,6 +1,8 @@
 $( window ).load(function() 
 {
- 	$("#one,.header").fadeIn("slow");
+	$("body").fadeIn("slow");
+
+ 	$("#one,.header").fadeIn(600);
 
  	$(".sketch").hover(function(){
  		$("#sketch_cover").fadeIn("slow")},function(){
@@ -10,7 +12,10 @@ $( window ).load(function()
 
 // onclick link
 	$('.sketch').click(function(){
+		
+		$("body").slideUp(600);
 		window.open("sketches.html","_self");
+
 	});
 
 });

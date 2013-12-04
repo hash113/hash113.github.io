@@ -1,7 +1,8 @@
 body{
 	overflow: hidden;
+  display: none;
+  background: url("../images/creativity_bg.jpg"); 
 }
-/*header*/
 
 .sketch{
   background: url("../images/4.jpg");
@@ -56,5 +57,5 @@ background-repeat: no-repeat;
 
   }
 
-/*showsketch*/
+
 
