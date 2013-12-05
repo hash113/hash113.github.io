@@ -1,6 +1,10 @@
 $( window ).load(function() 
 {
-	$("body").fadeIn("slow");
-	$('.carousel').carousel();
-
+	loader();
 });
+
+function loader(){
+	$("#load").fadeOut("slow");
+	$("#container").fadeIn("slow");
+	$('.carousel').carousel();
+}
