@@ -1,9 +1,12 @@
 body{
 	overflow: hidden;
-  display: none;
+  
   background: url("../images/creativity_bg.jpg"); 
 }
 
+#container{
+  display: none;
+}
 .sketch{
   background: url("../images/4.jpg");
   background-size: 100%;
@@ -15,6 +18,11 @@ background-repeat: no-repeat;
 -webkit-transition:background-size 2s; /* Safari */
 }
 
+#load{
+  position: fixed;
+  margin-top: 10%;
+  margin-left: 20%;
+}
  #sketch_cover{
   display: none;
  }

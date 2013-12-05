@@ -1,7 +1,12 @@
 $( window ).load(function() 
 {
-	$("body").fadeIn("slow");
+	loader();
 
+});
+
+function loader(){
+	$("#load").fadeOut("slow");
+	$("#container").fadeIn("slow");
  	$("#one,.header").fadeIn(600);
 
  	$(".sketch").hover(function(){
@@ -17,5 +22,4 @@ $( window ).load(function()
 		window.open("sketches.html","_self");
 
 	});
-
-});
+}
