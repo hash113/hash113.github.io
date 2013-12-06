@@ -10,7 +10,10 @@ body{
 
 #load{
 	position: fixed;
-	margin-left: 20%;
+	left: 50%;
+  	top:45%; 
+ 	z-index: 999;
+}
 	z-index: 999;
 }
 .carouselimage{

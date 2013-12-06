@@ -1,6 +1,5 @@
 body{
 	overflow: hidden;
-  
   background: url("../images/creativity_bg.jpg"); 
 }
 
@@ -18,11 +17,7 @@ background-repeat: no-repeat;
 -webkit-transition:background-size 2s; /* Safari */
 }
 
-#load{
-  position: fixed;
-  margin-top: 10%;
-  margin-left: 20%;
-}
+
  #sketch_cover{
   display: none;
  }
@@ -65,5 +60,11 @@ background-repeat: no-repeat;
 
   }
 
-
+#load{
+  position: fixed;
+  /*left:600px;*/
+  left: 50%;
+  top:50%; 
+  z-index: 999;
+}
 
