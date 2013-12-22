@@ -6,14 +6,18 @@ body{
 	height: 70px;
 	margin: 0;
 	padding: 0;
+	line-height: 80px;
 }
 
-.links{
-height: 60px;
-vertical-align: bottom;
+.links
+{
+	height: 60px;
+	vertical-align: middle;
+	
 }
 
-.header a{
+.header a
+{
 	color: green;
 	opacity: 0.8;
 	font-size: 30px;
@@ -22,5 +26,9 @@ vertical-align: bottom;
 }
 .header a:hover{
 	opacity: 1;
+	text-decoration: none;
+}
 
+.sec{
+	height: 600px;
 }

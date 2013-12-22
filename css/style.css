@@ -131,6 +131,7 @@ margin-left: 30%;
 }
 #link_main:hover{
 	opacity: 1;
+
 	}
 .name{
 	margin-top: 40px;
@@ -140,24 +141,14 @@ margin-left: 30%;
 }
 #white_half
 {
-	-moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 20px #000000;
-
-   -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-
 z-index: auto;
 }
 
 #black_half{
-	-moz-box-shadow:    inset 0 0 10px white;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #ffffff;
 
 z-index: 5;
 }
+
 /*center logo*/
 #logo
 {
@@ -255,4 +246,22 @@ z-index: auto;
 }
 #sociallinks img{
 	margin-right: 20px;
+}
+
+#spinner {
+	-webkit-mask-image: url(../images/spinner.png);
+	background-color: #000;
+	-webkit-animation-name: spinnerRotate;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spinnerRotate {
+	from {
+		-webkit-transform:rotate(0deg);
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
 }

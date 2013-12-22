@@ -10,7 +10,7 @@ $( document ).ready(function() {
 $( window ).load(function() 
 {
    	// console.log( "window loaded" );
-    // $("#loadingimage").css("display","block");
+    $("#spinner").css("display","block");
     loader();
 
 });
@@ -22,7 +22,7 @@ function loader()
    
 
     });
-    
+    $("#spinner").css("display","none");
     $('#white_half').hover(function()
 	    {
 	 	    
@@ -44,18 +44,10 @@ function loader()
 	 	   $('#matrix').fadeTo("slow", 0.3);
 	 	   $('#right_title').fadeTo("slow",0.9);
 
-        
-
-
-
 	  		},function(){
 	  		$("#black_half").css("background-color","black");
 	  		$('#matrix').fadeTo("slow",0.1);
 	  		$('#right_title').fadeTo("slow",1);
-	  		
-
-
-
 		});
 
      $('#white_half').click(function()
