@@ -1,6 +1,6 @@
 body{
 	overflow: hidden;
-  background: url("../images/creativity_bg.jpg"); 
+  /*background: url("../images/blackmamba.png"); */
 }
 
 #container{
@@ -11,15 +11,17 @@ body{
   background-size: 100%;
   min-height: 650px;
   background-origin: center;
-background-position: center;
-background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
   transition: background-size 2s;
 -webkit-transition:background-size 2s; /* Safari */
+
 }
 
 
  #sketch_cover{
   display: none;
+  opacity: .7;
  }
 
  .centerfont{
@@ -33,7 +35,6 @@ background-repeat: no-repeat;
  }
 
 .sketch:hover{
-
   background-size: 140%;
   background-position: center;
 }
@@ -45,7 +46,7 @@ background-repeat: no-repeat;
   padding: 0;
 }
 .cover{
-  background: url("../images/blackglass.png"); 
+  background: url("../images/blackmamba.png"); 
  min-height: 650px;
   display: block;
   height: 440px;
