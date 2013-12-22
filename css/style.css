@@ -37,9 +37,11 @@ height:680px;
 
 }
 .welcomeline{
-font-size: 40px;	
-font-family: 'Quicksand', sans-serif;
-margin-top: 5%;
+font-size: 45px;	
+
+margin-top: 3%;
+text-shadow: 0px 2px 3px #555;
+font-family: 'Simonetta', cursive;
 }
 
 
@@ -71,11 +73,12 @@ margin-top: 5%;
 }
 
 .shortcut a{
-	font-size: 60px;
-	font-family: brush;
+	font-size: 50px;
+	text-shadow: 0px 2px 3px #555;
+	font-family: 'Simonetta', cursive;
 	color: black;
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 120px;
+	margin-right: 120px;
 	opacity: 0.6;
 
 
@@ -83,6 +86,7 @@ margin-top: 5%;
 
 .shortcut a:hover{
 opacity: 1;
+text-decoration: none;
 }
 .shortcut:first-child{
 	font-size: 50px;
@@ -97,41 +101,42 @@ margin-left: 30%;
 }
 #welcometab{
 	position: fixed;
-	background: url(../images/oldpaper.jpg);
-	background-position:center; 
-	background-size:100%;
-
+	background: url(../images/bg.png);
 	height: 100%;
 	z-index: 1000;
 	text-align: center;
 	box-shadow:50px 50px 50px 20px black;
+	color: black;
 }
 #logosvg
 {
 	height: 30%;
 	width: 30%;
-
+	text-shadow: 0px 2px 3px #555;
 }
 #link_main{
-	color: white;
-	width: 30%;
+	color: rgba(255,255,255,0.4);
+	width: 25%;
 	height: 10%;
-	background: url("../images/button_texture.jpg") ;
-	bottom: 20%;
-	margin-top:1%; 
-	border-radius:5px;
+	/*background: url("../images/button_texture.jpg") ;*/
+	background-color: rgba(0,0,0,0.6);
+	bottom: 20%; 
+	/*border-radius:5px;*/
+	box-shadow:0px 0px 3px 1px black;
 	opacity: .8;
 	/*background-position: center;*/
-
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
 	border: 1px black;
 }
 #link_main:hover{
 	opacity: 1;
 	}
 .name{
-	margin-top: 10px;
+	margin-top: 40px;
 	font-size: 20px; 
 	font-family: 'Quicksand', sans-serif;
+	text-shadow: 0px 2px 3px #555;
 }
 #white_half
 {
