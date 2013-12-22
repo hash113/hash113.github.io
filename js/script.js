@@ -17,12 +17,15 @@ $( window ).load(function()
 
 function loader()
 {
-	$('#link_main').click(function(){
-    	$('#welcometab').fadeOut("slow");
-   
-
-    });
+	
+// display images
     $("#spinner").css("display","none");
+	$('.none,#link_main').delay(50).fadeIn();
+    $('#logosvg').animate({marginTop:0},"slow");
+    
+    
+
+
     $('#white_half').hover(function()
 	    {
 	 	    
@@ -49,6 +52,12 @@ function loader()
 	  		$('#matrix').fadeTo("slow",0.1);
 	  		$('#right_title').fadeTo("slow",1);
 		});
+
+// click functions
+
+	$('#link_main').click(function(){
+    	$('#welcometab').fadeOut("slow");
+    });
 
      $('#white_half').click(function()
      {

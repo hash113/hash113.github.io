@@ -34,15 +34,18 @@ src: url('../fonts/Brush.ttf');
 
 .h100{
 height:680px;
-
 }
+.none{
+	display: none;
+}
+
 .welcomeline{
 font-size: 45px;	
-
 margin-top: 3%;
 text-shadow: 0px 2px 3px #555;
 font-family: 'Simonetta', cursive;
 }
+
 
 
 .bgblack
@@ -92,6 +95,12 @@ text-decoration: none;
 	font-size: 50px;
 }
 
+.name{
+	margin-top: 40px;
+	font-size: 20px; 
+	font-family: 'Quicksand', sans-serif;
+	text-shadow: 0px 2px 3px #555;
+}
 
 /*---------------------------Id's----------------------------------*/
 #loadingimage{
@@ -105,40 +114,36 @@ margin-left: 30%;
 	height: 100%;
 	z-index: 1000;
 	text-align: center;
-	box-shadow:50px 50px 50px 20px black;
 	color: black;
+
 }
+
 #logosvg
 {
 	height: 30%;
 	width: 30%;
+	margin-top: 150px;
 	text-shadow: 0px 2px 3px #555;
 }
 #link_main{
 	color: rgba(255,255,255,0.4);
 	width: 25%;
 	height: 10%;
-	/*background: url("../images/button_texture.jpg") ;*/
 	background-color: rgba(0,0,0,0.6);
 	bottom: 20%; 
-	/*border-radius:5px;*/
 	box-shadow:0px 0px 3px 1px black;
 	opacity: .8;
-	/*background-position: center;*/
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	border: 1px black;
+	display: none;
 }
+
 #link_main:hover{
 	opacity: 1;
 
 	}
-.name{
-	margin-top: 40px;
-	font-size: 20px; 
-	font-family: 'Quicksand', sans-serif;
-	text-shadow: 0px 2px 3px #555;
-}
+
 #white_half
 {
 z-index: auto;
@@ -255,6 +260,7 @@ z-index: auto;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+	margin-top: 50px;
 }
 
 @-webkit-keyframes spinnerRotate {
