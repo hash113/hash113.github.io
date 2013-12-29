@@ -54,19 +54,13 @@ function loader()
 		});
 
 // click functions
+	$('#creativity-button').click(function(){
+		window.open("creativity.html","_self");
+    	
+    });
 
 	$('#link_main').click(function(){
     	$('#welcometab').fadeOut("slow");
+    	$('.foot,.boxlink').fadeIn("slow");
     });
-
-     $('#white_half').click(function()
-     {
-     	$("#welcometab,#white_half,#black_half").fadeOut("fast");
-     	window.open("creativity.html","_self");
-     });
-
-     $('#black_half').click(function()
-     {
-     	window.open("programming1.html","_self");
-     });
 }
