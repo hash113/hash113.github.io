@@ -1,5 +1,6 @@
 body{
 	overflow: hidden;
+	background: url("images/indexbg.png");
 }
 
 @font-face
@@ -23,6 +24,11 @@ font-family: brush;
 src: url('../fonts/Brush.ttf');
 }
 
+@font-face
+{
+font-family: dekar;
+src: url('../fonts/dekar.otf');
+}
 /*new page design inner*/
 .foot{
 	height: 120px;
@@ -38,7 +44,12 @@ src: url('../fonts/Brush.ttf');
 	margin-right: 10px;
 	z-index: 0;
 	display: none;
+	font-size: 40px;
+	font-family: dekar;
 }
+.boxlink:hover{
+	font-size: 50px;
+	}
 /*---------------------------Class's----------------------------------*/
 .marg{
 	margin: 0 0 0 0;
@@ -118,6 +129,24 @@ text-decoration: none;
 	text-shadow: 0px 2px 3px #555;
 }
 
+.display{
+	height: 600px;
+	
+	display: none;
+	background-size: 100%;
+	background-origin: 0;
+	position: absolute;
+}
+.artdisplay{
+	background: url("../images/art.png") no-repeat ;
+background-size:  100%;
+}
+
+.prodisplay{
+	background: url("../images/matriximage.png") no-repeat;
+	background-size:  100%;
+	opacity: 0.9;
+}
 /*---------------------------Id's----------------------------------*/
 #loadingimage{
 display: none;

@@ -23,8 +23,18 @@ function loader()
 	$('.none,#link_main').delay(50).fadeIn();
     $('#logosvg').animate({marginTop:0},"slow");
     
-    
-
+    $('#art-button').hover(function(){
+    	$(".artdisplay").fadeIn('slow');},
+    	function(){
+	$(".artdisplay").fadeOut('slow');
+    	}
+    )
+$('#programming-button').hover(function(){
+    	$(".prodisplay").fadeIn('slow');},
+    	function(){
+	$(".prodisplay").fadeOut('slow');
+    	
+    })
 
     $('#white_half').hover(function()
 	    {
