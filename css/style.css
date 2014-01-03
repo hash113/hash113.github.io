@@ -1,6 +1,7 @@
 body{
 	overflow: hidden;
-	background: url("images/indexbg.png");
+	background: url("../images/matriximage.png") no-repeat;
+	background-size: 100%;
 }
 
 @font-face
@@ -32,7 +33,7 @@ src: url('../fonts/dekar.otf');
 /*new page design inner*/
 .foot{
 	height: 120px;
-	background: rgba(0,0,0,0.4);
+	background: url(../images/bg.png) repeat;
 	display: none;
 }
 .boxlink{
@@ -132,7 +133,7 @@ text-decoration: none;
 .display{
 	height: 600px;
 	
-	display: none;
+	
 	background-size: 100%;
 	background-origin: 0;
 	position: absolute;
@@ -140,12 +141,14 @@ text-decoration: none;
 .artdisplay{
 	background: url("../images/art.png") no-repeat ;
 background-size:  100%;
+display: none;
 }
 
 .prodisplay{
 	background: url("../images/matriximage.png") no-repeat;
 	background-size:  100%;
 	opacity: 0.9;
+
 }
 /*---------------------------Id's----------------------------------*/
 #loadingimage{

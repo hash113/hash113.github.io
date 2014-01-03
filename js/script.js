@@ -24,7 +24,9 @@ function loader()
     $('#logosvg').animate({marginTop:0},"slow");
     
     $('#art-button').hover(function(){
-    	$(".artdisplay").fadeIn('slow');},
+    	$(".artdisplay").fadeIn('slow');
+    	$(".prodisplay").fadeOut('slow');
+    	},
     	function(){
 	$(".artdisplay").fadeOut('slow');
     	}
@@ -36,39 +38,14 @@ $('#programming-button').hover(function(){
     	
     })
 
-    $('#white_half').hover(function()
-	    {
-	 	    
-	 	   	$( "#wing,#tatoo" ).fadeTo( "slow" , 1);
-	 	    $("#tatoohover").fadeIn("slow");
-	 	    $( "#left_title" ).fadeTo( "slow" , 0.7);
-	 	    
-	 	    // fadein
-	  		},function(){
-	  		$("#tatoohover").fadeOut("slow")
-	  		$( "#wing,#tatoo" ).fadeTo( "slow" , 0.1);
-	  		$( "#left_title" ).fadeTo( "slow" , 1);
-
-		});
-
-     $('#black_half').hover(function()
-	    {
-	 	   // $("#black_half").css("background-color","#ececec");
-	 	   $('#matrix').fadeTo("slow", 0.3);
-	 	   $('#right_title').fadeTo("slow",0.9);
-
-	  		},function(){
-	  		$("#black_half").css("background-color","black");
-	  		$('#matrix').fadeTo("slow",0.1);
-	  		$('#right_title').fadeTo("slow",1);
-		});
-
 // click functions
-	$('#creativity-button').click(function(){
+	
+$('#art-button').click(function(){
 		window.open("creativity.html","_self");
-    	
     });
-
+$('#programming-button').click(function(){
+		window.open("programming.html","_self");
+    });
 	$('#link_main').click(function(){
     	$('#welcometab').fadeOut("slow");
     	$('.foot,.boxlink').fadeIn("slow");

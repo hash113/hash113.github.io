@@ -1,34 +1,34 @@
 body{
-	background: rgba(0,0,0,0.9);
-}
-.header
-{
-	height: 70px;
-	margin: 0;
-	padding: 0;
-	line-height: 80px;
+	background: url(../images/matriximage.png) no-repeat ;
+	background-size: 100%; 
+
 }
 
-.links
-{
-	height: 60px;
-	vertical-align: middle;
-	
+#load{
+  position: fixed;
+  /*left:600px;*/
+  left: 50%;
+  top:50%; 
+  z-index: 999;
 }
-
-.header a
-{
-	color: green;
-	opacity: 0.8;
-	font-size: 30px;
-	margin-left: 20px;
-	
-}
-.header a:hover{
-	opacity: 1;
-	text-decoration: none;
-}
-
-.sec{
+.cover{
+	border:1px solid green;
+	background: url(../images/matrix_blur.png) no-repeat;
+	/*background-size: 100%;*/
 	height: 600px;
+}
+.project{
+	padding-left: 0;
+	padding-right: 0;
+}
+#project_cover{
+padding-left: 0;
+}
+
+.centerfont{
+	  color: green;
+  font-size: 30px;
+  padding-top: 60%;
+  text-align: center;
+ font-family: 'Keania One', cursive;
 }
