@@ -16,10 +16,10 @@ function loader(){
 
 
 // onclick link
-	$('.sketch').click(function(){
+	$('.project').click(function(){
 		
-		$("body").slideUp(600);
-		window.open("sketches.html","_self");
+		// $("body").slideUp(600);
+		window.open("https://github.com/hash113?tab=repositories","_self");
 
 	});
 }
