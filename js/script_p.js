@@ -25,15 +25,17 @@ function loader(){
 		    width: "32%",
 		    marginLeft: "10px"
 		  }, 500 );
-
+		$("#harshbhatia").css("background","none");
 		
  	});
 
 // onclick link
 	$('.project').click(function(){
-		$(".back,.projectdesc").fadeIn(0);
-		$(".playground,.blog").fadeOut(0);
-		
+		$(".back,.projectdesc").fadeIn(500);
+		$(".playground,.blog").fadeOut(200);
+
+		$("#harshbhatia").css("background","url(images/propics/prowebsitehb.png)");
+		$("#harshbhatia").css("background-size","100%");
 
 		$(".centerfont").animate({
 			paddingTop:"1%"
