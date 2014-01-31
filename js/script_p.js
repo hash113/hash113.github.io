@@ -17,6 +17,7 @@ function loader(){
  		$(this).fadeOut(0);
  		$(".projectdesc").fadeOut(0);
  		$(".playground,.blog,.playground").fadeIn(0);
+ 		$(".cover").css("overflow","hidden");
  		$(".centerfont").animate({
 			paddingTop:"30%"
 			},
@@ -33,6 +34,7 @@ function loader(){
 	$('.project').click(function(){
 		$(".back,.projectdesc").fadeIn(500);
 		$(".playground,.blog").fadeOut(200);
+		 $(".cover").css("overflow","auto");
 
 		$("#harshbhatia").css("background","url(images/propics/prowebsitehb.png)");
 		$("#harshbhatia").css("background-size","100%");
