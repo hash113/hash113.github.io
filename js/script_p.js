@@ -1,8 +1,4 @@
-$( window ).load(function() 
-{
-	loader();
 
-});
 
 function loader(){
 	$("#load").fadeOut("slow");

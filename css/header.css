@@ -3,7 +3,9 @@
 font-family: cherry;
 src: url('../fonts/bird.ttf');
 }
-
+a:link{
+	text-decoration: none;
+}
 .header{
 	background: rgb(0,0,0);
 	/*opacity: 0.4;*/
@@ -17,8 +19,8 @@ src: url('../fonts/bird.ttf');
 .header a{
 	color: white;
 	margin-right: 20px;
-	font-size: 20px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
 	vertical-align: baseline;
 }
 
@@ -28,11 +30,14 @@ src: url('../fonts/bird.ttf');
 	height: 100%;
 
 }
-
 .headlinks{
-	margin-top: 1%;
+	right: 0;
+	float: right;
+	line-height: 60px;
 }
-
+.headlinks a{
+	float: right;
+}
 .back{
 
 	height: 8%;
@@ -48,4 +53,11 @@ src: url('../fonts/bird.ttf');
 	margin: 0;
 }
 
-
+.title {
+    font-size: 180%;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    line-height: 60px;
+    padding-top: 5px;
+    color: #ececec;
+}
