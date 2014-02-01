@@ -7,6 +7,7 @@ a:link{
 	text-decoration: none;
 }
 .header{
+	/*position: fixed;*/
 	background: rgb(0,0,0);
 	/*opacity: 0.4;*/
 	text-align: left;
