@@ -22,6 +22,7 @@ background-color: #ececec;
 #emailid{
 	font-family: rondo;
 	color: #0000A0;
+	font-size: 30px;
 }
 .resume{
 box-shadow: 0 0 10px #000000;
@@ -73,4 +74,9 @@ box-shadow: 0 0 10px #000000;
 	text-align: center;
 background-color: white;
 
+}
+
+.social{
+	font: normal;
+	margin-top: 15px; 
 }
