@@ -38,6 +38,7 @@ a:link{
 }
 .headlinks a{
 	float: right;
+	text-decoration: none;
 }
 .back{
 
