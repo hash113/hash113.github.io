@@ -6,7 +6,8 @@ body {
 /*new page design inner*/
  .foot {
     height: 120px;
-    background: url(../images/bg.png) repeat;
+    /*background: url(../images/bg.png) repeat;*/
+    background-color: #252525;
     display: none;
 }
 .boxlink {
@@ -97,6 +98,7 @@ body {
 #welcometab {
     position: fixed;
     background: url(../images/bg.png);
+    /*background-color: #252525;*/
     height: 100%;
     z-index: 1000;
     text-align: center;
