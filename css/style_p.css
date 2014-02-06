@@ -27,7 +27,14 @@ body{
 	height: 600px;
 	overflow: hidden;
 }
+.part-description
+{
+color: green;
+font-size: 20px;
+margin-top: 50px;
+	font-family: 'Exo 2', sans-serif;
 
+}
 
 /*Project section*/
 .projectdesc{
@@ -58,7 +65,7 @@ padding-left: 0;
 	padding-right: 0;
 }
 .projectname{
-	/*display: none;*/
+	display: none;
 	height: 30%;
 	border: 1px solid green;
 	margin-left: 5%;

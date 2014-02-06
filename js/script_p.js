@@ -15,7 +15,7 @@ function loader(){
  	$(".back").click(function(){
  		$(this).fadeOut(0);
  		$(".projectdesc").fadeOut(0);
- 		$(".playground,.blog,.playground").fadeIn(0);
+ 		$(".playground,.blog,project").fadeIn(0);
  		$(".cover").css("overflow","hidden");
  		$(".centerfont").animate({
 			paddingTop:"30%"
@@ -26,7 +26,8 @@ function loader(){
 		    marginLeft: "10px"
 		  }, 500 );
 		$("#harshbhatia").css("background","none");
-		
+		$(".projectname").fadeOut(200);
+		$(".part-description").fadeIn(200);
  	});
 
 // onclick link
@@ -37,11 +38,12 @@ function loader(){
 
 		$("#harshbhatia").css("background","url(images/propics/prowebsitehb.png)");
 		$("#harshbhatia").css("background-size","100%");
-
+		$(".projectname").fadeIn(200);
 		$(".centerfont").animate({
 			paddingTop:"1%"
 			},
 			500);
+		$(".part-description").fadeOut(200);
 		$( ".project" ).animate({
 		    width: "90%",
 		    marginLeft: "5%"
