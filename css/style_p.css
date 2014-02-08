@@ -1,122 +1,74 @@
-body{
-	background: url(../images/matriximage.png)  ;
-	background-size: 100%; 
-
+body {
+    /*background: url(../images/matriximage.png)  ;*/
+    background: rgba(0, 0, 2, 1);
+    background-size: 100%;
+    height: 100%;
 }
-.side{
-	width: 32%;
-	float: left;
-	margin-left: 10px;
-	opacity: 0.7;
+a{
+	text-decoration: none;
+	color: black;
 }
-.side:hover{
-	opacity: 1;
+hr{
+	height: 1px;
 }
-
-#load{
-  position: fixed;
-  /*left:600px;*/
-  left: 50%;
-  top:50%; 
-  z-index: 999;
+#load {
+    position: fixed;
+    /*left:600px;*/
+    left: 50%;
+    top:50%;
+    z-index: 999;
 }
-.cover{
-	border:1px solid green;
-	background: url(../images/matrix_blur.png) no-repeat;
-	/*background-size: 100%;*/
-	height: 600px;
-	overflow: hidden;
+.side {
+    display: inline-block;
+    margin-top: 2%;
+    background:rgba(255, 255, 255, 1);
+    padding: 0;
+    cursor: pointer;
 }
-.part-description
-{
-color: green;
-font-size: 20px;
-margin-top: 50px;
-	font-family: 'Exo 2', sans-serif;
-
+.cover {
+    height: 600px;
+    /*position: relative;*/
+    height:max-content;
+    /*border-style: inset;*/
+    border: 1px solid;
+    margin: 2px;
+    /*height:;*/
+    overflow: hidden;
 }
-
-/*Project section*/
-.projectdesc{
-	margin-top: 5%;
-	height: 30%;
-	float: left;
-	display: none;
-	color: green;
-}
-.projectdesc  h1{
-	margin: 0;
-	font-family: 'Iceland', cursive;
-	}
-.projectdesc h4{
-	font-family: 'Exo 2', sans-serif;
-
-
+.part-description {
+    font-size: 15px;
+    margin-top: 70%;
+    width: 100%;
+    display: none;
+    font-family:'Exo 2', sans-serif;
 }
 
 
-#project_cover{
-padding-left: 0;
-
+.playground{
+	margin-right: 4%;
 }
 
-.project{
-	padding-left: 0;
-	padding-right: 0;
-}
-.projectname{
-	display: none;
-	height: 30%;
-	border: 1px solid green;
-	margin-left: 5%;
-	margin-top: 5%;
-	float: left;
-	cursor: pointer;
-	overflow: auto;
-
+.project {
+    padding-left: 0;
+    padding-right: 0;
+    /*margin-left: : 4%;*/
+    margin-right: 4%;
 }
 
-.projectname h3{
-	font-family: 'Iceland', cursive;
-	padding-top: 25%;
-	text-align: center;
+
+.centerfont {
+    position: relative;
+    /*color: green;*/
+    font-size: 30px;
+    margin-top: 10%;
+    padding-top: 60%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+/*font-family: 'Alegreya Sans', sans-serif;*/
+/*font-family: 'Gruppo', cursive;*/
+    cursor: pointer;
 }
-
-/*hidden project desc*/
-.hiddendesc{
-	display: none;
-	color: green;
-	margin-left: 5%;
-
-}
-.hiddendesc h2{
-	font-family: 'Iceland', cursive;
-
-}
-.hiddendesc h4{
-	display: inline;
-
-
-}
-
-.back{
-	border: 0;
-	color: green;
-	position: fixed;
-	top:90px;
-	left: 70px;
-	background: none;
-	z-index: 999;
-	display: none;
-	cursor: pointer;
-}
-
-.centerfont{
-position: relative;
-color: green;
-  font-size: 30px;
-  padding-top: 30%;
-  text-align: center;
- font-family: 'Keania One', cursive;
- cursor: pointer;
+.centerfont:hover{
+margin-top: 0;
+/*padding-top:10%;*/
 }
