@@ -14,23 +14,31 @@ a:hover{
 .header{
 	/*position: fixed;*/
 	background: rgb(0,0,0);
-	/*opacity: 0.4;*/
+	/*opacity: 0.7;*/
 	text-align: left;
 	height: 60px;
 	-moz-box-shadow:    0 0 10px #000000;
    -webkit-box-shadow:  0 0 10px #000000;
    box-shadow:          0 0 10px #000000;
+
 }
 
 .header a{
 	color: white;
 	margin-right: 20px;
-	font-size: 15px;
+	font-size: 14px;
 	text-decoration: none;
+	/*font-family: 'Myriad Set Pro';*/
 	font-family: 'Raleway', sans-serif;
+	/*font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;*/
 	vertical-align: baseline;
+	-webkit-transition: opacity 300ms ease;
+	-moz-transition: opacity 300ms ease;
+	transition: opacity 300ms ease;
 }
-
+.header a:hover{
+	opacity: 0.6;
+}
 .head{
 	position: fixed;
 	width: 100%;
