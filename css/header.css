@@ -20,7 +20,6 @@ a:hover{
 	-moz-box-shadow:    0 0 10px #000000;
    -webkit-box-shadow:  0 0 10px #000000;
    box-shadow:          0 0 10px #000000;
-
 }
 
 .header a{
@@ -35,6 +34,7 @@ a:hover{
 	-webkit-transition: opacity 300ms ease;
 	-moz-transition: opacity 300ms ease;
 	transition: opacity 300ms ease;
+
 }
 .header a:hover{
 	opacity: 0.6;

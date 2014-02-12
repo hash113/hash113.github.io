@@ -1,0 +1,68 @@
+@font-face {
+    font-family: aire;
+    src: url('../fonts/aire.ttf');
+}
+body {
+    /*overflow: hidden;*/
+    /*background-color: #ececec;*/
+    height: 100%;
+    text-align: center;
+}
+.desc{
+    margin-top: -1%;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+.intro{
+    position: fixed;
+    float: left;
+    font-size: 30px;
+    top:20%;
+    width: 20%;
+    text-align: left;
+}
+.name {
+    font-family: aire;
+    font-size: 500%;
+    text-align: center;
+    margin: 0;
+}
+img :first-child{
+    float: none;
+}
+img {
+    height: 25%;
+    margin-bottom: 1px;
+    margin-left: 4px;
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    border:3px solid #ffffff;
+    -webkit-filter: grayscale(100%);  
+    box-shadow: 0 0 1px #000000;
+}
+img:hover{
+    -webkit-filter: grayscale(0%);  
+}
+.socialimg{
+    width: 35px;
+    height: 35px;
+}
+.left{
+float: left;
+bottom: 20px;
+left: 20px;
+position: absolute;
+display: inline-block;
+}
+.right{
+float: right;
+bottom: 20px;
+right: 20px;
+position: absolute;
+display: inline-block;
+}
+.display{
+    display: inline-block;
+    height: 25%;
+    width: 15%;
+}
