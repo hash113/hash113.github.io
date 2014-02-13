@@ -3,8 +3,10 @@
     src: url('../fonts/aire.ttf');
 }
 body {
+    /*background: url("http://media-cache-cd0.pinimg.com/736x/8f/bf/1f/8fbf1f29abc8121851182b7a15dc5236.jpg") no-repeat;*/
     /*overflow: hidden;*/
     /*background-color: #ececec;*/
+    /*background-image: url("../images/wallpaper_art.jpg");*/
     height: 100%;
     text-align: center;
 }
@@ -27,10 +29,10 @@ body {
     text-align: center;
     margin: 0;
 }
-img :first-child{
+.img :first-child{
     float: none;
 }
-img {
+.img {
     height: 25%;
     margin-bottom: 1px;
     margin-left: 4px;
@@ -39,8 +41,9 @@ img {
     border:3px solid #ffffff;
     -webkit-filter: grayscale(100%);  
     box-shadow: 0 0 1px #000000;
+    z-index: 999;
 }
-img:hover{
+.img:hover{
     -webkit-filter: grayscale(0%);  
 }
 .socialimg{
@@ -65,4 +68,13 @@ display: inline-block;
     display: inline-block;
     height: 25%;
     width: 15%;
+    z-index: 99;
+}
+.fullimage{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
