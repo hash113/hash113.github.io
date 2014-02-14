@@ -16,6 +16,7 @@ body {
     margin-bottom: 2%;
     /*font-family: 'Belleza', sans-serif;*/
 font-family: 'Gruppo', cursive;
+z-index: 9999;
 }
 .intro{
     position: fixed;
@@ -70,7 +71,7 @@ display: inline-block;
     display: inline-block;
     height: 25%;
     width: 15%;
-    z-index: 99;
+    z-index: 9999;
 }
 .fullimage{
     display: none;
@@ -79,6 +80,7 @@ display: inline-block;
     left: 0;
     height: 100%;
     width: 100%;
+    z-index: 0;
 }
 span{
     float: left;
@@ -91,7 +93,6 @@ span{
     font-size: 20px;
     /*color: blue;*/
     font-family: 'Gruppo', cursive;
-
 }
 
 .artdesc{
@@ -104,4 +105,5 @@ font-size: 20px;
     font-family: 'Gruppo', cursive;
     display: none;
     text-align: right;
+    
 }

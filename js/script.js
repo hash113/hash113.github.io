@@ -12,7 +12,7 @@ function loader()
 // display images
     // $("#spinner").css("display","none");
     $('#art').hover(function(){
-                // document.body.style.backgroundImage=url('../images/wallpaper_art.jpg');
+                $(".fullimage").attr("src","images/wallpaper_art2.png");
                 $(".fullimage").fadeIn(700);
                 $(".display").text("Art ");
                 $(".name").css('color', 'red');
@@ -37,10 +37,10 @@ function loader()
         }  );
 
     $('#blog').hover(function(){
-                // document.body.style.backgroundImage=url('../images/wallpaper_art.jpg');
+                $(".fullimage").attr("src","images/wallpaper_blog.png");
                 $(".fullimage").fadeIn(700);
                 $(".display").text("Blog ");
-                $(".name").css('color', 'Violet');
+                $(".name").css('color', 'white');
         },
         function(){
             $(".fullimage").fadeOut(500);
@@ -49,16 +49,14 @@ function loader()
         }  );
 
     $('#about').hover(function(){
-                // document.body.style.backgroundImage=url('../images/wallpaper_art.jpg');
-
-        $('body').css('background-color', '#ececec');
-                $("span,.artdesc").fadeIn(700);
+        $(".fullimage").attr("src","images/wallpaper_ab.png");
+                $("span,.artdesc,.fullimage").fadeIn(700);
                 $(".display").text("About");
                 $(".name").css('color', 'blue');
         },
         function(){
-            $('body').css('background-color', '#ffffff');
-            $("span,.artdesc").fadeOut(500);
+
+            $("span,.artdesc,.fullimage").fadeOut(500);
             $(".display").text("H B");
             $(".name").css('color', 'black');
         }  );
