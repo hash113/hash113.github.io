@@ -167,15 +167,6 @@ body {
 	margin: 0;
 }
 
-a {
-	color: #95a5a6;
-	text-decoration: none;
-	outline: none;
-}
-
-a:hover, a:focus {
-	color: #fff;
-}
 
 section {
 	padding: 4em 2em;
