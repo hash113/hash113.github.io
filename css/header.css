@@ -3,12 +3,12 @@
 font-family: cherry;
 src: url('../fonts/bird.ttf');
 }
-a{
+.header a{
 	text-decoration: none;
 	color: white;
 	color: #fff;
 }
-a:hover{
+.header a:hover{
 	text-decoration: none;
 	color: white;
 }
