@@ -28,7 +28,7 @@ z-index: 9999;
 }
 .name {
     font-family: aire;
-    font-size: 500%;
+    font-size: 5em;
     text-align: center;
     margin: 0;
 }
@@ -106,4 +106,21 @@ font-size: 20px;
     display: none;
     text-align: right;
     
+}
+@media screen and (max-width: 50em) {
+    .name {
+        font-size:2em;
+    }
+}
+ 
+@media screen and (max-width: 40em) {
+    .name {
+        font-size:1.5em;
+    }
+}
+ 
+@media screen and (max-width: 30em) {
+    .name {
+        font-size:1em;
+    }
 }
