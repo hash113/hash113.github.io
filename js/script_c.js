@@ -13,13 +13,14 @@ function loader(){
  		$("#sketch_cover").fadeIn("slow")},function(){
  			$("#sketch_cover").fadeOut("slow")
  	});
+ 	$(".poem").hover(function(){
+ 		$("#poem_cover").fadeIn("slow")},function(){
+ 			$("#poem_cover").fadeOut("slow")
+ 	});
 
+ 	$(".graphicdesign").hover(function(){
+ 		$("#graphic_cover").fadeIn("slow")},function(){
+ 			$("#graphic_cover").fadeOut("slow")
+ 	});
 
-// onclick link
-	$('.sketch').click(function(){
-		
-		$("body").slideUp(600);
-		window.open("sketches.html","_self");
-
-	});
 }

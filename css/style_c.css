@@ -17,11 +17,33 @@ body{
 -webkit-transition:background-size 2s; /* Safari */
 
 }
+.poem{
+  background: url("../images/poems/pause.png");
+  background-size: 100%;
+  min-height: 650px;
+  /*opacity: 0.3;*/
+  background-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 2s;
+-webkit-transition:background-size 2s; /* Safari */
 
+}
+.graphicdesign{
+  background: url("../images/gdesign.png");
+  background-size: 100%;
+  min-height: 650px;
+  /*opacity: 0.3;*/
+  background-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 2s;
+-webkit-transition:background-size 2s; /* Safari */
 
- #sketch_cover{
+}
+ #sketch_cover,#poem_cover,#graphic_cover{
   display: none;
-  opacity: .7;
+  opacity: 0.9;
  }
 
  .centerfont{
@@ -34,7 +56,7 @@ body{
 
  }
 
-.sketch:hover{
+.sketch:hover,.poem:hover,.graphicdesign:hover{
   background-size: 140%;
   background-position: center;
 }
