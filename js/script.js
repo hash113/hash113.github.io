@@ -23,7 +23,7 @@ function loader() {
     $('#programming').hover(function() {
             $(".fullimage").stop(true, false).attr("src", "images/wallpaper_mat.png");
             $(".fullimage").fadeIn(700);
-            $(".display").text("Projects ");
+            $(".display").text("Tech. ");
             $(".name").css('color', 'green');
         },
         function() {
