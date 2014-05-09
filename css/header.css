@@ -17,6 +17,7 @@ src: url('../fonts/bird.ttf');
 	background: rgb(0,0,0);
 	/*opacity: 0.7;*/
 	text-align: left;
+
 	height: 60px;
 	-moz-box-shadow:    0 0 10px #000000;
    -webkit-box-shadow:  0 0 10px #000000;
