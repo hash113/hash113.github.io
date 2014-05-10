@@ -5,7 +5,7 @@ Design MARK 1,
 version 0.1 of personal website. 
 developement always under process.
 
-will be online at harshbhatia.net on 1st december 2013.
+NON-RESPONSIVE and Available since 10th may 2014.
 
 please suggest any changes or bugs you find.
 contact me at
