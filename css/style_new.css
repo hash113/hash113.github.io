@@ -8,6 +8,7 @@ body {
     /*background-color: #ececec;*/
     /*background-image: url("../images/wallpaper_art.jpg");*/
     height: 100%;
+    width: 100%;
     text-align: center;
 }
 .desc{
@@ -32,11 +33,12 @@ z-index: 9999;
     text-align: center;
     margin: 0;
 }
-.img :first-child{
+/*.img :first-child{
     float: none;
-}
+}*/
 .img {
-    height: 35%;
+    /*height: 250px;*/
+    width: 15%;
     margin-bottom: 1px;
     margin-left: 4px;
     -webkit-transform: rotate(-2deg);
