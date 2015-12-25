@@ -1,65 +1,288 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
-    <title>Harsh Bhatia | Personal Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:100&text=HARSH%20BHATIA' rel='stylesheet' type='text/css'> -->
-    <link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style_new.css" />
-    <!-- Favicon -->
-    <!--link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
-     <link rel="icon" href="Images/favicon.ico" type="image/x-icon"-->
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <title>Harsh Bhatia personal Website</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|Josefin+Sans:400,600|Roboto:400,700,500|Raleway:400,300,200,700,600|Play:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <img class="fullimage" src="images/wallpaper_art2.png">
-    <span> Hi, THERE !! <br><br> I am <br>a web Developer / Designer.<br> loves to experiments on web to perfection and quality.</span>
-    <p class="artdesc"> An Artist,
-        <br> creating realistic sketches using several graphite pencils</p>
-    <p class="col-sm-12 name">Harsh Bhatia</p>
-    <p class="desc"> Converting Coffee and Choclate into designs.</p>
-    <a href="aboutme.html">
-        <img src="images/dp.jpg" id="about" class="img">
-    </a>
-    <br>
-    <a href="creativity.html">
-        <img src="images/sketches/hart.jpg" id="art" class="img">
-    </a>
-    <div class="display name" id="center-div">H B</div>
-    <a href="programming.html"><img src="images/matriximage.png" id="programming" class="img">
-    </a>
-    <br>
-    <!-- <a href="blog.html"><img src="images/hblog.png"  id="blog" class="simg"></a> -->
-
-    <div class="left">
-        <a href="https://www.facebook.com/theharshbhatia"><img src="images/ffb.png" class="socialimg ">
-        </a>
-        <a href="https://twitter.com/theharshbhatia"><img src="images/ftw.png" class="socialimg ">
-        </a>
+    <div class="full-height-container landing" id='top'>
+        <div class="landing-wrapper">
+        <img src="img/landing169.png" class="center-img">
+        </div>
+            <div class="logo-svg-wrapper">
+                <a href="#top">
+                    <svg height="60" width="100" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="logo-shape" height="60" width="100" />
+                        <div class="logo">HB</div>
+                </a>
+                </svg>
+            </div>
+            <div class='name-wrapper'>
+                <img src="img/frame.png" class="frame">
+                <div id='nav-arrow'>
+                    <a href="#two"> <img src="img/icons/belowArrow.png"> </a>
+                </div>
+            </div>
+        
     </div>
-    <div class="right">
-        <a href="http://in.linkedin.com/in/theharshbhatia/"><img src="images/fin.png" class="socialimg ">
-        </a>
-        <a href="https://github.com/theharshbhatia"><img src="images/fgit.png" class="socialimg">
-        </a>
+    <!-- short story section -->
+    <div class="full-height-container" id="two">
+        <div class="title-wrapper">
+            <h1 class="heading">ABOUT ME</h1>
+            <p>PERSONAL LIFE & PROJECTS</p>
+        </div>
+        <!-- <svg height="10" width="1200" class='heading-underline'>
+            <line x1="100" y1="10" x2="450" y2="10" style="stroke:rgba(45,45,45,0.3);stroke-width:2" />
+        </svg>
+        <svg height="10" width="1200" class='heading-underline'>
+            <line x1="850" y1="10" x2="1200" y2="10" style="stroke:rgba(45,45,45,0.3);stroke-width:2" />
+        </svg> -->
+        <div class="content">
+            <header> </header>
+            <p class="short-story">
+                Software developer/Artist from Maharashtra(India), currently living in Noida(India). Successfully completed B-tech (july-2014), since then working in startup experimenting, learning and creating cool stuff. Interested in designing, developing things from scratch, but wont mind redecorating awesomeness in a product.
+            </p>
+        </div>
+        <div class="projects">
+            <div class="project-tile">
+                <img src="img/project-logo/hbnet.png" />
+                <h2>Portfolio website</h2>
+                <p>www.harshbhatia.net is portfolio website, a gallery to my sketches and a playhouse for my web. It is always under development. </p>
+                <div class="link-wrapper">
+                <a href="https://github.com/theharshbhatia/theharshbhatia.github.io"><img src="img/icons/icon_code.png"class="icon icon-project"></a>
+                <a href="http://www.harshbhatia.net/"><img src="img/icons/icon_link.png" class="icon icon-project"></a>
+                </div>
+            </div>
+            <div class="project-tile">
+                <img src="img/project-logo/frisk.png" />
+                <h2>Frisk</h2>
+                <p>Chrome browser extension for new tab. It helps user to access major functionalities of browser from its new tab. light and fast browser access for all.</p>
+                <div class="link-wrapper">
+                <a href="http://goo.gl/WwDQ8T"><img src="img/icons/icon_link.png" class="icon icon-project"></a>
+                </div>
+            </div>
+            <div class="project-tile">
+                <img src="img/project-logo/melange.png" />
+                <h2>Melange </h2>
+                <p>Drag n Drop static website generator. Project is not live, idea was to help user create static websites in 2012 as college project.</p>
+                <div class="link-wrapper">
+                <a href="https://github.com/theharshbhatia/Melange"><img src="img/icons/icon_code.png"class="icon icon-project"></a>
+                </div>
+            </div>
+            <div class="project-tile">
+                <img src="img/project-logo/hoistlogo.png" />
+                <h2>Hoist</h2>
+                <p>It is a script written in javascript that converts a photoshop document to html and css page. Unlike native implementation of slicing images.</p>
+                <div class="link-wrapper">
+                <a href="https://github.com/theharshbhatia/HOIST"><img src="img/icons/icon_code.png"class="icon icon-project"></a>
+                </div>
+            </div>
+            <div class="project-tile">
+                <img src="img/project-logo/imagerazer.jpg" />
+                <h2>Image Razor </h2>
+                <p>It a traditional image editing software written in java, containing 25 image filters.</p>
+                <div class="link-wrapper">
+                <a href="https://github.com/theharshbhatia/Image_razer"><img src="img/icons/icon_code.png"class="icon icon-project"></a>
+                </div>
+            </div>
+            <div class="project-tile">
+                <img src="img/project-logo/frisk.jpg" />
+                <h2>? x ?</h2>
+                <p>Blank space. If you got some brilliant idea/opportunity and think I can be of some help, please contact me.</p>
+            </div>
+            <!-- <section class="color-7">
+                <nav class="cl-effect-21">
+                    <a href="www.facebook.com/theharshbhatia">Github</a>
+                </nav>
+            </section> -->
+        </div>
     </div>
-
-
-
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <!-- <div class="quote-area"> -->
+    <!-- <h3 class="quote">" EVERY ARTIST IS IN A STATE OF WAR WITH WHOLE WORLD " </h3> -->
+    <!-- <h4 class="author">- Anonymous</h4> -->
+    <!-- </div> -->
+    <!-- art gallery section  -->
+    <div class="gallery container">
+        <!-- <h1 id="two" class="heading">ART GALLERY</h1>
+        <svg height="10" width="1200" class='heading-underline'>
+            <line x1="100" y1="10" x2="450" y2="10" style="stroke:rgba(45,45,45,0.3);stroke-width:2" />
+        </svg>
+        <svg height="10" width="1200" class='heading-underline'>
+            <line x1="850" y1="10" x2="1200" y2="10" style="stroke:rgba(45,45,45,0.3);stroke-width:2" />
+        </svg> -->
+        <!-- cover sketch center full width size -->
+        <div class="coversketch">
+            <figure>
+                <img src="sketches/1.jpg">
+                <figcaption>
+                    <div>
+                        <h2>PENCIL SKETCHES</h2>
+                        <p>CARVED TO LIFE WITH PERSEVERANCE & MINUTE MEASUREMENTS</p>
+                    </div>
+                    <ul class="social">
+                        <a href="https://www.facebook.com/Harsh.BhatiaOfficial">
+                            <li>EXPLORE</li>
+                        </a>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <!-- <div class="column-3">
+            <div class="col">
+                <figure class="zero-mp">
+                    <img src="sketches/2012-chair seduction.jpg">
+                    <figcaption>
+                        <div>
+                            <h2>PENCIL SKETCHES</h2>
+                            <p>CARVED TO LIFE WITH PERSEVERANCE & MINUTE MEASUREMENTS</p>
+                        </div>
+                        <ul class="social">
+                            <a href="https://www.facebook.com/Harsh.BhatiaOfficial">
+                                <li>EXPLORE</li>
+                            </a>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col">
+                <figure class="zero-mp">
+                    <img src="sketches/Mermaid.jpg">
+                    <figcaption>
+                        <div>
+                            <h2>PENCIL SKETCHES</h2>
+                            <p>CARVED TO LIFE WITH PERSEVERANCE & MINUTE MEASUREMENTS</p>
+                        </div>
+                        <ul class="social">
+                            <a href="https://www.facebook.com/Harsh.BhatiaOfficial">
+                                <li>EXPLORE</li>
+                            </a>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col">
+                <figure class="zero-mp">
+                    <img src="sketches/2012-Smoking Girl.jpg">
+                    <figcaption>
+                        <div>
+                            <h2>PENCIL SKETCHES</h2>
+                            <p>CARVED TO LIFE WITH PERSEVERANCE & MINUTE MEASUREMENTS</p>
+                        </div>
+                        <ul class="social">
+                            <a href="https://www.facebook.com/Harsh.BhatiaOfficial">
+                                <li>EXPLORE</li>
+                            </a>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+        </div> -->
+        <div class="col3-showcase">
+            <div class="view view-first">
+                <img src="sketches/2.jpg" />
+                <div class="mask">
+                    <h2>Chair Seduction</h2>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+            <div class="view view-first">
+                <img src="sketches/Mermaid.jpg" />
+                <div class="mask">
+                    <h2>Mermaid</h2>
+                    <p>Playing with water, mesmerising people on a splash of water from her hairs, Mermaid.</p>
+                    <!-- <a href="#" class="info">Read More</a> -->
+                </div>
+            </div>
+            <div class="view view-first">
+                <img src="sketches/2012-chair seduction.jpg" />
+                <div class="mask">
+                    <h2>Chair Seduction</h2>
+                    <p></p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- <section class="color-7">
+            <nav class="cl-effect-21">
+                <a href="https://www.facebook.com/theharshbhatia">Gallery on Facebook</a>
+            </nav>
+        </section> -->
+    </div>
+    </div>
+    <div class='contact'>
+        <div class="title-wrapper">
+            <h1 class="heading">CONTACT</h1>
+            <p>MAIL & STUFF</p>
+        </div>
+        <!-- <svg height="10" width="1200" class='heading-underline'>
+            <line x1="100" y1="10" x2="450" y2="10" style="stroke:rgba(45,45,45,0.3);stroke-width:2" />
+        </svg>
+        <svg height="10" width="1200" class='heading-underline'>
+            <line x1="850" y1="10" x2="1200" y2="10" style="stroke:rgba(45,45,45,0.3);stroke-width:2" />
+        </svg> -->
+        <div class="content">
+            <header> </header>
+            <p class="short-story">
+                If you got something interesting for me please contact.
+                <br> It doesnt have to be official all the time, just say hi or poke me on facebook.
+            </p>
+        </div>
+        <div class="white social">
+            <ul>
+                <a href="https://www.github.com/theharshbhatia">
+                    <li>github</li>
+                </a>
+                <a href="https://www.facebook.com/theharshbhatia">
+                    <li>facebook</li>
+                </a>
+                <a href="https://www.twitter.com/theharshbhatia">
+                    <li>twitter</li>
+                </a>
+                <a href="https://in.linkedin.com/in/theharshbhatia">
+                    <li>linkedIn</li>
+                </a>
+                <a href="https://www.pinterest.com/theharshbhatia">
+                    <li>pinterest</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="contact-area">
+        <h4>GOT AN INTERESTING OPPORTUNITY ??</h4>
+        <h4>CONTACT</h4>
+        <div class="white social">
+            <ul>
+                <a href="https://www.facebook.com/theharshbhatia">
+                    <li>facebook</li>
+                </a>
+                <a href="https://www.twitter.com/theharshbhatia">
+                    <li>twitter</li>
+                </a>
+                <a href="https://in.linkedin.com/in/theharshbhatia">
+                    <li>linkedIn</li>
+                </a>
+                <a href="https://www.pinterest.com/theharshbhatia">
+                    <li>pinterest</li>
+                </a>
+                <a href="https://www.github.com/theharshbhatia">
+                    <li>github</li>
+                </a>
+            </ul>
+        </div>
+    </div> -->
+    <!-- quote for art gallery -->
+    <!-- contact section -->
+    <!-- footer section -->
+    <!-- <div class="footer">
+        <a href="#top">Top</a>
+    </div> -->
+    <script type="text/javascript" src="vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,93 @@
+body{
+	overflow: hidden;
+  /*background: url("../images/blackmamba.png"); */
+}
+
+#container{
+  display: none;
+}
+.sketch{
+  background: url("../images/sketches/4.jpg");
+  background-size: 100%;
+  min-height: 650px;
+  background-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 2s;
+-webkit-transition:background-size 2s; /* Safari */
+
+}
+.poem{
+  background: url("../images/poems/pause.png");
+  background-size: 100%;
+  min-height: 650px;
+  /*opacity: 0.3;*/
+  background-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 2s;
+-webkit-transition:background-size 2s; /* Safari */
+
+}
+.graphicdesign{
+  background: url("../images/gdesign.png");
+  background-size: 100%;
+  min-height: 650px;
+  /*opacity: 0.3;*/
+  background-origin: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 2s;
+-webkit-transition:background-size 2s; /* Safari */
+
+}
+ #sketch_cover,#poem_cover,#graphic_cover{
+  display: none;
+  opacity: 0.9;
+ }
+
+ .centerfont{
+  color: white;
+  font-size: 30px;
+  padding-top: 60%;
+  text-align: center;
+  opacity: 0.5;
+  font-family: 'Bowlby One SC', cursive;
+
+ }
+
+.sketch:hover,.poem:hover,.graphicdesign:hover{
+  background-size: 140%;
+  background-position: center;
+}
+
+.side{
+  height: 620px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+.cover{
+  background: url("../images/black.png"); 
+ min-height: 650px;
+  display: block;
+  height: 440px;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 10px;
+  background-position: center;
+  z-index: 2;
+  border: 0;
+  position: absolute;
+
+  }
+
+#load{
+  position: fixed;
+  /*left:600px;*/
+  left: 50%;
+  top:50%; 
+  z-index: 999;
+}
+
