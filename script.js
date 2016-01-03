@@ -11,4 +11,28 @@ $(function() {
       }
     }
   });
+  var projectInfo = {
+    'hoist': {
+      "title": "HOIST"
+    },
+    'hbwebsite': {
+      'title':'www.harshbhatia.net'
+    }
+  }
+  $projectTileHead = document.querySelector('.project-desc-title');
+  var openProjectDescription = function(e){
+    document.querySelector('.project-desc-wrapper').style.display ='block';
+    $projectTileHead = this;
+  }
+  $projecttiles = document.querySelectorAll('.project-tile');
+  for (var i = 0; i < $projecttiles.length; i++) {
+    $projecttiles[i].addEventListener('click', openProjectDescription, false);
+}
 });
+angular.module('website',[]);
+angular.module('website').controller('projectController', projectController);
+
+function projectController(){
+  var proContr = this;
+  proContr.projectList = projectList;
+}
