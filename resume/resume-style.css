@@ -1,0 +1,65 @@
+/*generic css*/
+body {
+	background-color: #e6ce2c;
+	background: url(../img/yellowbackground.jpg);
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{
+	float: right;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+nav a{
+	padding: 10px;
+}
+/*title*/
+.resume{
+	font-size: 11em;
+	margin: 0;
+	margin-left: -5%;	
+	/*font-family: 'Droid Serif', serif;*/
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Titillium Web', sans-serif;
+}
+.personal-info{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*divider table*/
+table.divider{
+	margin-left: 100px;
+}
+table.divider td{
+	padding: 20px;
+	padding-top: 0px;
+}
+td.heading{
+	width: 20%;
+	vertical-align: top;
+	margin: 0;
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+td.heading h1{
+	float: right;
+	/*margin: 0;*/
+	font-size: 2em;
+}
+
+td.description{
+	margin: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.experience .position, .education .level, .projects .project{
+	padding: 10px 15px 15px 15px;
+	border-bottom: 1px dashed rgba(0,0,0,0.1);	
+}
+.experience .title,.education .title, .project .name{
+	margin-bottom: 5px;
+}
+h3.company,h3.place,h3.date{
+	margin: 0;
+}
+h5.time-period{
+	margin: 0;
+}
