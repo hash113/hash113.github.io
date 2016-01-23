@@ -73,6 +73,10 @@ a
 {
     float: right;
     margin: 15px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    /* margin-left: 20%; */
 }
 /*Landing Page*/
 /*Logo area*/
@@ -150,7 +154,7 @@ a
     width: 100%;
     /* height: 100%; */
     /* background-size: contain; */
-    background: url(img/landing8x4.png);
+    background: url(img/landing8x4.jpg);
     /* position: absolute; */
     /* left: 0; */
 }
@@ -257,6 +261,7 @@ p.short-story
 .project-tile .icon:hover
 {
     opacity: 1;
+    -webkit-filter:none;
 }
 .link-wrapper
 {
@@ -702,7 +707,7 @@ p.short-story
   and (-webkit-min-device-pixel-ratio: 1) { 
     .landing-wrapper .center-img
     {
-        content: url('img/landing-non-retina.png');
+        content: url('img/landing-non-retina.jpg');
     }
 }
 
@@ -714,7 +719,7 @@ p.short-story
   and (min-resolution: 192dpi) { 
     .landing-wrapper .center-img
     {
-        content: url('img/landing-retina.png');
+        content: url('img/landing-retina.jpg');
     }
 }
 
@@ -723,6 +728,6 @@ p.short-story
 {
     .landing-wrapper .center-img
     {
-        content: url('img/landing8x4.png');
+        content: url('img/landing8x4.jpg');
     }
 }
