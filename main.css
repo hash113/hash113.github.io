@@ -7,7 +7,7 @@ body
     padding: 0;
     /* width: 111%; */
     /* width: 3606px; */
-    background: #dedede;
+    background: #fff;
 }
 h1,
 h3
@@ -44,7 +44,7 @@ a
     /* padding-bottom: 12%; */
     padding: 0;
     border-top: none;
-    background: #e2e2e2;
+    background: #fff;
     /* padding-bottom: 0%; */
 }
 #two .heading:hover
@@ -308,7 +308,7 @@ p.short-story
     height: auto;
     min-height: 60vh;
     /* color: #fff; */
-    background: #e2e2e2;
+    background: #fff;
 }
 .contact .social
 {
@@ -363,7 +363,7 @@ p.short-story
     clear: left;
     /* border: 2px solid; */
     /* height: 210vh; */
-    background-color: #dedede;
+    background-color: #fff;
 }
 .coversketch figure
 {

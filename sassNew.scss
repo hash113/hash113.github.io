@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #e5e4e0;
+}
+
+$nav-color: #fff;
+$section-height:600px;
+.landing-page {
+    width: 100%;
+    background-image: url("img/landing169.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    nav {
+        color: $nav-color;
+        float: right;
+        padding: 20px;
+        a {
+            padding: 20px;
+            color: $nav-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.story-container {
+    background: #fff;
+    margin: 2% 7% 2% 7%;
+    padding: 3%;
+    width: 80%;
+    overflow: hidden;
+    .black-box-heading {
+        margin: auto;
+        background: #000;
+        padding: 10px;
+        min-width: 100px;
+        width: auto;
+        height: 30px;
+        line-height: 12px;
+        display: table;
+        font-family: Quicksand;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 500px;
+        h2 {
+            padding: 0 10px 0px 10px;
+            margin: 0;
+            line-height: 30px;
+        }
+    }
+    .decoration {
+        background: transparent;
+        border: 15px solid #000;
+        height: 50%;
+        // height: 200px;
+    }
+    .left-hand {
+        float: left;
+        width: 50%;
+        img {
+            width: 80%;
+        }
+    }
+    .right-half-center {
+        width: 50%;
+        float: right;
+        text-align: center;
+        height: $section-height;
+    }
+    .paragraph {
+        padding: 60px;
+        line-height: 22px;
+        word-spacing: 3px;
+        font-family: Raleway;
+        hyphens: auto;
+    }
+    .left-half-center {
+        width: 50%;
+        text-align: center;
+        height: $section-height;
+        float: left;
+        .sub-heading {
+            font-family: Roboto;
+            font-weight: 300;
+            font-size: 19px;
+            padding: 40px;
+            width: 50%;
+            margin: auto;
+        }
+    }
+    .projects {
+        float: right;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        min-height: $section-height;
+    }
+    .blue-box {
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        width: 40%;
+        border-color: #1294f6;
+    }
+    .red-box {
+        border-color: #ec1562;
+        position: absolute;
+        left: 10%;
+        height: 50%;
+        width: 50%;
+    }
+    .green-box {
+        border-color: #009788;
+        height: $section-height/1.8;
+        margin-top: 15%;
+        transform: rotate(-20deg);
+    }
+}
