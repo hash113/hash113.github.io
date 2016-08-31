@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="vendor/css/sidescroll.css">
+    <link rel="stylesheet" href="vendor/css/lightbox.css">
+    <script src="vendor/jquery.min.js"></script>
+    <script src="vendor/jquery.mousewheel.js"></script>
+    <script src="gallery.js"></script>
+    <script type="text/javascript" src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+    $(function() {
+        $("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+        $(".post").wrap("<td></td>");
+        $("body").mousewheel(function(event, delta) {
+            this.scrollLeft -= (delta * 30);
+            event.preventDefault();
+        });
+    });
+    </script>
+</head>
+
+<body cz-shortcut-listen="true">
+    <div>
+        <a href="index.html"><h1>HARSH BHATIA</h1></a>
+        <nav class="fixed-div">
+            <a href="https://www.facebook.com/harsh.bhatiaofficial" target="blank"><img src="img/icons/facebook 128.png" alt="" class="social-icon"></a>
+            <a href="https://twitter.com/theharshbhatia" target="blank"><img src="img/icons/twitter 128.png" alt="" class="social-icon"></a>
+            <a href="https://in.pinterest.com/theharshbhatia/" target="blank"><img src="img/icons/pinterest 128.png" alt="" class="social-icon"></a>
+        </nav>
+    </div>
+    <div id="page-wrap">
+        <table cellspacing="30">
+            <tbody>
+                <tr class="lb-album">
+                    <td>
+                    <a href="#image-1">
+                            <div class="post portrait reveal1">
+                                <p>
+                                    <svg height="5px" width="55">
+                                        <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                    </svg>on 5/6/2016</p>
+                                <div  id="reflection" alt="" class="sketch portrait"></div>
+                                <h2>Reflection</h2>
+                            </div>
+                        </a>
+                        <div class="lb-overlay" id="image-1">
+                            <a href="#page" class="lb-close">X</a>
+                            <div  id="reflection" alt="image01" class="overlay portrait"></div>
+                            <!-- <img src="sketches/reflection.jpg" alt="image01" /> -->
+                            <div>
+                                <!-- <h3>pointe <span>/point/</h3> -->
+                                <!-- <p>Dance performed on the tips of the toes</p> -->
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post lanscape reveal2">
+                            <h2>FEMINITY - delighting female expression</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div id="feminity" alt="" class=" sketch"></div>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse aliquet arcu a ipsum. Nunc arcu est, pulvinar vitae, consectetuer ac, pellentesque interdum, augue. Fusce iaculis nulla et sapien. Aliquam erat volutpat. Etiam iaculis turpis nec libero. Nam adipiscing ullamcorper quam. Pellentesque erat. Sed hendrerit. Duis id nisl. Cras arcu mauris, mollis vel, convallis non, elementum a, tortor. Donec ac est eget elit consequat sollicitudin. In id odio quis tortor volutpat mollis. Nulla iaculis lobortis est. Pellentesque in elit vitae nulla tempus euismod. Nam non erat in lacus rutrum malesuada. Donec commodo purus sed quam posuere eleifend. Nam accumsan.</p> -->
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal3">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/2.jpg" id="mermaid" alt="" class="sketch portrait"></div>
+                            <h2>Smoking Girl</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal4">
+                            <h2>Blond: Enough description</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/3.jpg" id="blond" alt="" class="sketch portrait"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse aliquet arcu a ipsum. Nunc arcu est, pulvinar vitae, consectetuer ac, pellentesque interdum, augue. Fusce iaculis nulla et sapien. Aliquam erat volutpat. Etiam iaculis turpis nec libero. Nam adipiscing ullamcorper quam. Pellentesque erat. Sed hendrerit. Duis id nisl. Cras arcu mauris, mollis vel, convallis non, elementum a, tortor. Donec ac est eget elit consequat sollicitudin. In id odio quis tortor volutpat mollis. Nulla iaculis lobortis est. Pellentesque in elit vitae nulla tempus euismod. Nam non erat in lacus rutrum malesuada. Donec commodo purus sed quam posuere eleifend. Nam accumsan.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal5">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div id="dancer" src="sketches/4.jpg" alt="" class=" sketch portrait"></div>
+                            <h2>The Dancer</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal6">
+                            <h2>CHAIR SEDUCTION</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div id="chair-seduction" src="sketches/5.jpg" alt="" class=" sketch portrait"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape reveal7">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/6.jpg" alt="" class=" sketch landscape" id="ladyinsilk"></div>
+                            <h2>Lady In Silk</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal8">
+                            <h2>Mermaid</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="ladyinsilk"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal9">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="AngelinaJolie"></div>
+                            <h2>Angelina Jolie</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal10">
+                            <h2>Baby</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Baby"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal11">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Behind-the-leaves"></div>
+                            <h2>Behind-the-leaves</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal12">
+                            <h2>Black-Lady</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Black-Lady"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal13">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Brad-Pitt"></div>
+                            <h2>Brad-Pitt</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal14">
+                            <h2>Charlie-chaplin</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Charlie-chaplin"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape reveal15">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="Eagle"></div>
+                            <h2>Eagle</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal16">
+                            <h2>Emma-Roberts</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Emma-Roberts"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post lanscape reveal17">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch lanscape" id="Emma-Watson"></div>
+                            <h2>Emma-Watson</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape reveal18">
+                            <h2>Hillary-Duff</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="Hillary-Duff"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal19">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Innocence"></div>
+                            <h2>Innocence</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal20">
+                            <h2>Khopadi</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Khopadi"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="Kriti-Sanon"></div>
+                            <h2>Kriti-Sanon</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>Lindsay-Lohan</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Lindsay-Lohan"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="Megan-Fox"></div>
+                            <h2>Megan-Fox</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>Paul-walker</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Paul-walker"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Robert-Pattinson"></div>
+                            <h2>Robert-Pattinson</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>SRK</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="SRK"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Selena-Gomez"></div>
+                            <h2>Selena-Gomez</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>Sleeping-Beauty</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Sleeping-Beauty"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Waiting-for-someone"></div>
+                            <h2>Waiting-for-someone</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>Zac-Effron</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Zac-Effron"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="coming-out"></div>
+                            <h2>coming-out</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>lady-in-Smoke</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="lady-in-Smoke"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="modern-simplicity"></div>
+                            <h2>modern-simplicity</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape">
+                            <h2>Alone</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="Alone"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Ballet-Queen"></div>
+                            <h2>Ballet-Queen</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>Blond</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="Blond"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="Dance-is-Everything"></div>
+                            <h2>Dance-is-Everything</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post landscape">
+                            <h2>Quit-before-it-Burns-YOU</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch landscape" id="Quit-before-it-Burns-YOU"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="kitty"></div>
+                            <h2>kitty</h2>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="post portrait reveal7">
+                            <h2>TimelessBeauty</h2>
+                            <p>
+                                <svg height="5px" width="55">
+                                    <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                                </svg>on 5/6/2016</p>
+                            <div src="sketches/7.jpg" alt="" class=" sketch portrait" id="TimelessBeauty"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <style type="text/css" style="display: none !important;">
+
+    </style>
+</body>
+
+</html>

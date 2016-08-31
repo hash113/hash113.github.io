@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    background: url("../../img/particles1.png");
+    font-family: 'Lucida Grande', Helvetica, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+tr {
+    vertical-align: top;
+    height: 100%;
+    display: table-row;
+}
+td{
+	padding-right: 60px;
+}
+
+.post.lanscape{
+	width: 35vw;
+	/* margin-right: 20%; */
+}
+.post.portrait {
+    height: 60vh;
+    width: 25vw;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0 0 15px 0;
+    /* position: absolute; */
+    margin-top: 10%;
+    float: right;
+    margin-right: -30%;
+}
+.landscape p{
+	margin-right: -15%;
+}
+.fixed-div{
+	position:fixed;
+	right: 6%;
+	top: 5%;
+}
+.fixed-div .social-icon{
+	width: 28px;
+	-webkit-filter: grayscale(80%);
+}
+h1 {
+    font-family: Sans-serif;
+    font-size: 3em;
+    letter-spacing: -1px;
+    color: #333;
+    position: fixed;
+    text-align: center;
+    border: 4px solid;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Sans-serif;
+    font-size: 3.0em;
+    letter-spacing: -1px;
+    color: #333;
+    font-weight: 200;
+    margin: 40px 0px;
+    width: 70%;
+}
+
+.post img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.sketch{
+	height: 50vh;
+	width: 40vw;
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 1s ease-in;
+	border: 2px solid;
+}
+.sketch:hover{
+		-webkit-filter: brightness(90%);
+
+}
+.sketch.portrait{
+	height: 60vh;
+	width: 25vw;
+	/* border: 2px solid; */
+}
+#feminity{
+	background-image: url("../../sketches/1.jpg");
+}
+#mermaid{
+	background-image: url("../../sketches/2.jpg");
+}
+#broken-celebration{
+	background-image: url("../../sketches/6.jpg");
+}
+#dancer{
+	background-image: url("../../sketches/3.jpg");
+}
+#blond{
+	background-image: url("../../sketches/2012-Blond.jpg");
+}
+#chair-seduction{
+	background-image: url("../../sketches/2012-chair seduction.jpg");
+}
+#ladyinsilk{
+	background-image: url("../../sketches/2012-lady in silk{uploader}.jpg");
+}
+#AngelinaJolie{
+	background-image: url("../../sketches/2011-Angelina Jolie.jpg");
+}
+#Baby{
+	background-image: url("../../sketches/2011-Baby.jpg");
+}
+#Behind-the-leaves{
+	background-image: url("../../sketches/2011-Behind the leaves.jpg");
+}
+#Black-Lady{
+	background-image: url("../../sketches/2011-Black Lady.jpg");
+}
+#Brad-Pitt{
+	background-image: url("../../sketches/2011-Brad Pitt.jpg");
+}
+#Broken-celebration{
+	background-image: url("../../sketches/2011-Broken celebration.jpg");
+}
+#Charlie-chaplin{
+	background-image: url("../../sketches/2011-Charlie chaplin.jpg");
+}
+#Eagle{
+	background-image: url("../../sketches/2011-Eagle(uploaded).jpg");
+}
+#Emma-Roberts{
+	background-image: url("../../sketches/2011-Emma Roberts.jpg");
+}
+#Emma-Watson{
+	background-image: url("../../sketches/2011-Emma Watson.jpg");
+}
+#Hillary-Duff{
+	background-image: url("../../sketches/2011-Hillary Duff.jpg");
+}
+#Innocence{
+	background-image: url("../../sketches/2011-Innocence.jpg");
+}
+#Khopadi{
+	background-image: url("../../sketches/2011-Khopadi.jpg");
+}
+#Kriti-Sanon{
+	background-image: url("../../sketches/2011-Kriti Sanon.jpg");
+}
+#Lindsay-Lohan{
+	background-image: url("../../sketches/2011-Lindsay Lohan.jpg");
+}
+#Megan-Fox{
+	background-image: url("../../sketches/2011-Megan Fox.jpg");
+}
+#Paul-walker{
+	background-image: url("../../sketches/2011-Paul walker.jpg");
+}
+#Robert-Pattinson{
+	background-image: url("../../sketches/2011-Robert Pattinson.jpg");
+}
+#SRK{
+	background-image: url("../../sketches/2011-SRK.jpg");
+}
+#Selena-Gomez{
+	background-image: url("../../sketches/2011-Selena Gomez.jpg");
+}
+#Sleeping-Beauty{
+	background-image: url("../../sketches/2011-Sleeping Beauty.jpg");
+}
+#Waiting-for-someone{
+	background-image: url("../../sketches/2011-Waiting for someone.jpg");
+}
+#Zac-Effron{
+	background-image: url("../../sketches/2011-Zac Effron.jpg");
+}
+#coming-out{
+	background-image: url("../../sketches/2011-coming out(uploaded).jpg");
+}
+#lady-in-Smoke{
+	background-image: url("../../sketches/2011-lady in Smoke.jpg");
+}
+#modern-simplicity{
+	background-image: url("../../sketches/2011-modern simplicity.jpg");
+}
+#Alone{
+	background-image: url("../../sketches/2012-Alone.jpg");
+}
+#Ballet-Queen{
+	background-image: url("../../sketches/2012-Ballet Queen.jpg");
+}
+#Blond{
+	background-image: url("../../sketches/2012-Blond.jpg");
+}
+#Dance-is-Everything{
+	background-image: url("../../sketches/2012-Danc is Everything(uploded).jpg");
+}
+#Quit-before-it-Burns-YOU{
+	background-image: url("../../sketches/2012-Quit before it Burns YOU(uploaded).jpg");
+}
+#Smoking-Girl{
+	background-image: url("../../sketches/2012-Smoking Girl.jpg");
+}
+#chair-seduction{
+	background-image: url("../../sketches/2012-chair seduction.jpg");
+}
+#dancer{
+	background-image: url("../../sketches/2012-dancer.jpg");
+}
+#kitty{
+	background-image: url("../../sketches/2012-kitty.jpg");
+}
+#lady-in-silk{
+	background-image: url("../../sketches/2012-lady in silk{uploader}.jpg");
+}
+#TimelessBeauty{
+	background-image: url("../../sketches/2013TimelessBeauty.jpg");
+}
+#privacy{
+	background-image: url("../../sketches/2013privacy.jpg");
+}
+#Mermaid{
+	background-image: url("../../sketches/Mermaid.jpg");
+}
+#Privacy2013{
+	background-image: url("../../sketches/Privacy2013.jpg");
+}
+#hart{
+	background-image: url("../../sketches/hart.jpg");
+}
+#reflection{
+	background-image: url("../../sketches/reflection.jpg");
+}
+
+
+
