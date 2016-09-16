@@ -103,8 +103,8 @@ blockquote p {
 	position:fixed;
 	top:50% !important;
 	left:50%;
-	width:50px;
-	height:50px;
+	width:30px;
+	height:30px;
 	margin-left:-25px;
 	z-index:100;
 	font-size:12px;
@@ -119,27 +119,27 @@ blockquote p {
 }
 @-webkit-keyframes k3d {
   0% {
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotate(0deg);
   }
   50% {
-    -webkit-transform: rotateY(360deg);
+    -webkit-transform: rotate(180deg);
 	opacity:0.3;
   }
   100%{
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotate(360deg);
   }
 }
 @-moz-keyframes k3d {
 
   0% {
-   -moz-transform: rotateY(0deg);
+   -moz-transform: rotate(0deg);
   }
   50% {
-    -moz-transform: rotateY(360deg);
+    -moz-transform: rotate(180deg);
 	opacity:0.3;
   }
   100%{
-    -moz-transform: rotateY(0deg);
+    -moz-transform: rotate(360deg);
   }
 
 }
@@ -147,41 +147,41 @@ blockquote p {
 
 
   0% {
-    -ms-transform: rotateY(0deg);
+    -ms-transform: rotate(0deg);
   }
   50% {
-     -ms-transform: rotateY(360deg);
+     -ms-transform: rotate(180deg);
 	 opacity:0.3;
   }
   100%{
-     -ms-transform: rotateY(0deg);
+     -ms-transform: rotate(360deg);
   }
 
 }
 @-o-keyframes k3d {
 
   0% {
-   -o-transform: rotateY(0deg);
+   -o-transform: rotate(0deg);
   }
   50% {
-    -o-transform: rotateY(360deg);
+    -o-transform: rotate(180deg);
 	opacity:0.3;
   }
   100%{
-     -o-transform: rotateY(0deg);
+     -o-transform: rotate(360deg);
   }
 
 }
 @keyframes k3d {
 0% {
-  transform: rotateY(0deg);
+  transform: rotate(0deg);
   }
   50% {
-    transform: rotateY(360deg);
+    transform: rotate(360deg);
 	opacity:0.3;
   }
   100%{
-     transform: rotateY(0deg);
+     transform: rotate(360deg);
   }
 
 }
@@ -471,6 +471,7 @@ header{
 	margin-top:0px;
 	display:block;
 	position:relative;
+	padding-top: 10px;
 }
 .logo-vis {
 	position:relative;
@@ -499,6 +500,7 @@ header{
 }
 .logo-sticky img.logo-notvis {
 	opacity:1;
+	padding-top: 15px;
 }
 header.sticky .header-inner:before , header.flat-header .header-inner:before {
 	height:100%;
@@ -877,7 +879,7 @@ header.sticky nav a , header.sticky .subnav a  , header.flat-header .nav-social 
 	opacity:0;
 }
 .hero-title {
-	max-width:450px;
+	max-width:750px;
 	margin:0 auto;
 	top:50%;
 	position:relative;
@@ -1111,13 +1113,13 @@ article {
 	margin-top:60px;
 }
 .team-links {
-	max-width:800px;
+	max-width:1000px;
 	margin:50px auto;
 	position:relative;
 }
 .team-item {
 	float:left;
-	width:25%;
+	width:20%;
 	padding:20px;
 }
 .team-item  a {
@@ -1135,12 +1137,14 @@ article {
 	letter-spacing:1px;
 	padding:10px 0;
 	font-family: 'Playball', cursive;
+	color: #fff;
 	display:inline-table;
 }
  .chefinfo {
 	display:inline-table;
 	font-size:14px;
-	font-weight:bold;
+	color: #fff !important;
+	font-weight: 300;
 }
 .white-popup-block {
     max-width: 900px;
@@ -1531,8 +1535,11 @@ article {
     width: 40px;
     border: 1px solid #eee;
 }
-.content-pagination a.current-page, .content-pagination a:hover {
+.content-pagination a.current-page, .content-pagination a:hover{
     color:#fff;
+}
+.white-font {
+    color:#fff !important;
 }
 .content-pagination  span.content-pagination-num{
 	display: inline-block;
