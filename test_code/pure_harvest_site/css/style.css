@@ -98,6 +98,7 @@ blockquote p {
 	font-style:italic;
 	color:#494949;
 }
+
 /* ---------Page preload--------------------------------------*/
 .loader {
 	position:fixed;
@@ -511,6 +512,7 @@ header.sticky .header-inner {
 	padding:25px 0;
 }
 /*------ Navigation  ------------------------------------------------*/
+
 .nav-holder {
 	float:right;
 	position:relative;
@@ -1881,6 +1883,18 @@ article {
 }
 .cart-totals  button:hover {
 	color:#fff;
+}
+.shine{
+padding: 10px;
+margin-top: -10px;
+background: #000
+}
+.shine:hover{
+	color: #fff
+}
+header.sticky .shine{
+	color: #fff;
+	background: #C59D5F;
 }
 /*------ Footer  ------------------------------------------------*/
 footer {
