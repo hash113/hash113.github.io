@@ -61,13 +61,14 @@ h1 {
 }
 
 h2 {
-    font-family: Sans-serif;
-    font-size: 3.0em;
+    font-family: helvetica;
+    font-size: 1.2rem;
     letter-spacing: -1px;
-    color: #333;
-    font-weight: 200;
+    color: #888484;
+    font-weight: 100;
     margin: 40px 0px;
-    width: 70%;
+    /* width: 70%; */
+    letter-spacing: 0.5px;
 }
 
 .post img{
