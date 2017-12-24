@@ -32,7 +32,7 @@ td{
 p {
     font-size: 1.2em;
     margin: 0 0 15px 0;
-    /* position: absolute; */
+    color: #000;
     margin-top: 10%;
     float: right;
     margin-right: -30%;
@@ -50,15 +50,18 @@ p {
 	-webkit-filter: grayscale(80%);
 }
 h1 {
+    background: #fff;
     font-family: Sans-serif;
-    font-size: 1.4em;
-    letter-spacing: -1px;
+    font-size: 1.7em;
+    letter-spacing: 0.5px;
     color: #333;
     position: fixed;
     text-align: center;
     border: 4px solid;
     padding: 10px;
-    font-weight: 500;
+    font-weight: 900;
+    width: 10%;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 }
 
 h2 {
